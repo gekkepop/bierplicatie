@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
-using System.Windows.Forms;
+using System.Linq;
 
 namespace BierplicatieFormsApplication
 {
-    class UitleesApparaat
+    internal class UitleesApparaat
     {
-        
-        StreamReader aantalBierLezer;
-        StreamReader statiegeldLezer;
+        private StreamReader aantalBierLezer;
+        private StreamReader statiegeldLezer;
 
         private List<string> uitLezen = new List<string>();
         private List<string> BierTellerWeek = new List<string>();
@@ -123,7 +120,6 @@ namespace BierplicatieFormsApplication
                                 eersteDezeDag = false;
                             }
                         }
-
                     }
                     u = u - 1; //This is where the magic happends! ;)
                     if (u == 0)
@@ -149,7 +145,6 @@ namespace BierplicatieFormsApplication
             }
 
             return BierTellerWeek;
-            
         }
 
         public string statiegeldUitrekenen(string naam)
@@ -163,7 +158,7 @@ namespace BierplicatieFormsApplication
             {
                 uitlezen = false;
             }
-            
+
             string regel;
             try
             {
@@ -176,7 +171,6 @@ namespace BierplicatieFormsApplication
             {
                 uitlezen = false;
             }
-
 
             if (uitlezen == false)
             {

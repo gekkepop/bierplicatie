@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using System.IO;
 
 namespace BierplicatieFormsApplication
 {
-    class DatumTijd
+    internal class DatumTijd
     {
         private System.DateTime vandaag = new System.DateTime(System.DateTime.Now.Year, System.DateTime.Now.Month, System.DateTime.Now.Day, System.DateTime.Now.Hour, System.DateTime.Now.Minute, System.DateTime.Now.Second, System.DateTime.Now.Millisecond);
 
@@ -15,7 +11,6 @@ namespace BierplicatieFormsApplication
         {
             get { return vandaag; }
             set { vandaag = value; }
-
         }
 
         public bool DatumWegschrijven()
@@ -26,7 +21,6 @@ namespace BierplicatieFormsApplication
                 FileStream datum = File.Create(@"C:\Bierplicatie\Config\DatumTijd.txt");
 
                 datum.Close();
-
             }
 
             StreamWriter datumschrijven = new StreamWriter(@"C:\Bierplicatie\Config\DatumTijd.txt");
@@ -42,7 +36,6 @@ namespace BierplicatieFormsApplication
                 datumgelezen.Add(regel);
             }
             return true;
-
         }
     }
 }

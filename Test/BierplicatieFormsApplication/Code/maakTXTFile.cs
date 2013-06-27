@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 using System.Windows.Forms;
-using BierplicatieFormsApplication;
-
 
 namespace Bierplicatie
 {
-    class MaakTXTFile
+    internal class MaakTXTFile
     {
-
         public MaakTXTFile()
         {
         }
@@ -64,11 +58,8 @@ namespace Bierplicatie
                         MessageBox.Show(@"Kon waarde uit oude bestand niet lezen, heb je in de tekstbestanden gezeten?", "parse error", MessageBoxButtons.OK);
                         return -9999;
                     }
-
-
                 }
                 return -999;
-
             }
         }
 
@@ -120,13 +111,9 @@ namespace Bierplicatie
                         MessageBox.Show(@"Kon waarde uit oude bestand niet lezen, heb je in de tekstbestanden gezeten?", "parse error", MessageBoxButtons.OK);
                         return -9999;
                     }
-
-
                 }
                 return -999;
-
             }
         }
-
     }
 }

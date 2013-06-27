@@ -553,7 +553,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;labelAantalOvergeblevenBier.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="OvergeblevenBierLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -586,7 +586,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;OvergeblevenBierLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -598,7 +598,7 @@
     <value>True</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1008, 1058</value>
+    <value>1008, 1054</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Tai Le, 8.25pt</value>

@@ -1,12 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using Bierplicatie;
 
 namespace BierplicatieFormsApplication
 {
@@ -102,9 +96,6 @@ namespace BierplicatieFormsApplication
             ingelizeZijnBierVanAfgelopenWeekPerDag = opvragen.uitrekenen("IngeLize");
 
             SilkeChart.Series.Add("henk");
-
         }
-
-
     }
 }

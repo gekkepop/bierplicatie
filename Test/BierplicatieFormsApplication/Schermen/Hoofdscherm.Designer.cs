@@ -136,6 +136,7 @@
             this.labelInvoerWatVoor.BackColor = System.Drawing.Color.Transparent;
             this.labelInvoerWatVoor.ForeColor = System.Drawing.Color.White;
             this.labelInvoerWatVoor.Name = "labelInvoerWatVoor";
+            this.labelInvoerWatVoor.Click += new System.EventHandler(this.labelInvoerWatVoor_Click);
             // 
             // labelAantalOvergeblevenBier
             // 

@@ -1,11 +1,9 @@
-﻿using System;
+﻿using BierplicatieFormsApplication;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
-using BierplicatieFormsApplication;
 
 namespace Bierplicatie
 {
@@ -19,19 +17,20 @@ namespace Bierplicatie
         private int aantalBierSilke, aantalBierNick, aantalBierDaniel, aantalBierEmma, aantalBierIngeLize;
         private double statiegeldSilke, statiegeldNick, statiegeldDaniel, statiegeldEmma, statiegeldIngeLize;
         private int bierGastenSilke, bierGastenNick, bierGastenDaniel, bierGastenEmma, bierGastenIngeLize;
+
         //private int bierBezoeker; //wordt nog niet gebruikt, moet algemene gast worden.
         private string emmaHaarMuziekje = @"C:\Bierplicatie\Media\emma.wav";
+
         private string silkeZijnMuziekje = @"C:\Bierplicatie\Media\silke.wav";
         private string danielZijnMuziekje = @"C:\Bierplicatie\Media\daniel.wav";
         private string ingeLizeHaarMuziekje = @"C:\Bierplicatie\Media\ingelize.wav";
         private string nickZijnMuziekje = @"C:\Bierplicatie\Media\nick.wav";
 
-        MaakTXTFile bestanden = new MaakTXTFile();
-        Muziek afspelen = new Muziek();
+        private MaakTXTFile bestanden = new MaakTXTFile();
+        private Muziek afspelen = new Muziek();
 
         public int aftrekkenBierpuntenSilke(int bierpuntenSilke)
         {
-
             //bool bestaatSilkeZeBestand;
             int mogelijkOudeWaarde;
 
@@ -54,20 +53,14 @@ namespace Bierplicatie
 
                 StreamWriter silkeZeBierSchrijver = File.AppendText(@silkeZeBierLocatie);
 
-
                 using (silkeZeBierSchrijver)
                 {
                     silkeZeBierSchrijver.WriteLine("{0}", vandaag);
                     silkeZeBierSchrijver.WriteLine("{0}", System.DateTime.Now.DayOfWeek);
                     silkeZeBierSchrijver.WriteLine("{0}", this.bierpuntenSilke);
                     silkeZeBierSchrijver.WriteLine("---------------------------------------------");
-
-
-
-
                 }
                 silkeZeBierSchrijver.Dispose();
-
             }
             else
             {
@@ -105,10 +98,8 @@ namespace Bierplicatie
                     nickZeBierSchrijver.WriteLine("{0}", System.DateTime.Now.DayOfWeek, true);
                     nickZeBierSchrijver.WriteLine("{0}", this.bierpuntenNick, true);
                     nickZeBierSchrijver.WriteLine("---------------------------------------------", true);
-
                 }
                 nickZeBierSchrijver.Dispose();
-
             }
             else
             {
@@ -119,7 +110,6 @@ namespace Bierplicatie
 
         public int aftrekkenBierpuntenDaniel(int bierpuntenDaniel)
         {
-
             string danielZeBierLocatie;
 
             danielZeBierLocatie = @"C:\Bierplicatie\Bierpunten\danielZeBier";
@@ -140,17 +130,14 @@ namespace Bierplicatie
 
                 StreamWriter danielZeBierSchrijver = File.AppendText(@danielZeBierLocatie);
 
-
                 using (danielZeBierSchrijver)
                 {
                     danielZeBierSchrijver.WriteLine("{0}", vandaag, true);
                     danielZeBierSchrijver.WriteLine("{0}", System.DateTime.Now.DayOfWeek, true);
                     danielZeBierSchrijver.WriteLine("{0}", this.bierpuntenDaniel, true);
                     danielZeBierSchrijver.WriteLine("---------------------------------------------", true);
-
                 }
                 danielZeBierSchrijver.Dispose();
-
             }
             else
             {
@@ -186,10 +173,8 @@ namespace Bierplicatie
                     emmaHaarBierSchrijver.WriteLine("{0}", System.DateTime.Now.DayOfWeek, true);
                     emmaHaarBierSchrijver.WriteLine("{0}", this.bierpuntenEmma, true);
                     emmaHaarBierSchrijver.WriteLine("---------------------------------------------", true);
-
                 }
                 emmaHaarBierSchrijver.Dispose();
-
             }
             else
             {
@@ -225,10 +210,8 @@ namespace Bierplicatie
                     ingeLizeHaarBierSchrijver.WriteLine("{0}", vandaag.DayOfWeek);
                     ingeLizeHaarBierSchrijver.WriteLine("{0}", this.bierpuntenIngeLize);
                     ingeLizeHaarBierSchrijver.WriteLine("---------------------------------------------");
-
                 }
                 ingeLizeHaarBierSchrijver.Dispose();
-
             }
             else
             {
@@ -279,7 +262,6 @@ namespace Bierplicatie
 
         public int optellenAantalBierNick(int aantalBierNick)
         {
-
             string nickZeAantalBierLocatie;
             //bool bestaatNickZeAantalBierBestand;
 
@@ -359,7 +341,6 @@ namespace Bierplicatie
 
         public int optellenAantalBierEmma(int aantalBierEmma)
         {
-
             string emmaHaarAantalBierLocatie;
             if (aantalBierEmma != 0)
             {
@@ -524,6 +505,7 @@ namespace Bierplicatie
             }
             return this.statiegeldNick;
         }
+
         public double optellenStatiegeldEmma(int aantalKrattenEmma)
         {
             string emmaZijnStatiegeldLocatie = @"C:\Bierplicatie\Statiegeld\EmmaZijnStatiegeld.txt";
@@ -692,7 +674,6 @@ namespace Bierplicatie
             return this.bierGastenNick;
         }
 
-
         public int optellenBierGastenEmma(int aantalBier)
         {
             string bierGastenEmmaLocatie;
@@ -766,9 +747,9 @@ namespace Bierplicatie
         }
 
         private string tempNaam;
+
         public string berekenenNieuweBierHaler()
         {
-
             int tempValue = 10000;
 
             if (bierpuntenDaniel <= tempValue)
@@ -818,10 +799,8 @@ namespace Bierplicatie
                 tempValue = bierpuntenSilke;
             }
 
-
             return tempNaam;
         }
-
 
         //public StreamReader aantalBierLezer;
 
@@ -841,7 +820,6 @@ namespace Bierplicatie
             {
                 if (File.Exists(@"C:\Bierplicatie\Statiegeld\" + namen[i] + "ZijnStatiegeld.txt"))
                 {
-
                     StreamReader statiegeldLezer = new StreamReader(@"C:\Bierplicatie\Statiegeld\" + namen[i] + "ZijnStatiegeld.txt");
                     string regel;
                     while ((regel = statiegeldLezer.ReadLine()) != null)
@@ -863,23 +841,18 @@ namespace Bierplicatie
                     statiegeldLezer.Dispose();
                 }
                 else { }
-
             }
-
 
             int aantalGedronken = 0;
 
             uitLezen.Clear();
 
-            
-
             for (int y = 0; y < namen.Count(); y++)
             {
-                if(namen[y] != "Emma" && namen[y] != "IngeLize")
+                if (namen[y] != "Emma" && namen[y] != "IngeLize")
                 {
                     if (File.Exists(@"C:\Bierplicatie\AantalVanHuisgenoten\" + namen[y] + "ZeAantalBier.txt"))
                     {
-
                         StreamReader aantalBierLezer = new StreamReader(@"C:\Bierplicatie\AantalVanHuisgenoten\" + namen[y] + "ZeAantalBier.txt");
 
                         string regel;
@@ -915,7 +888,6 @@ namespace Bierplicatie
 
                         aantalGedronken = aantalGedronken + vertalen;
                         aantalBierLezer.Dispose();
-
                     }
                     else { }
                 }
@@ -923,13 +895,10 @@ namespace Bierplicatie
 
             uitLezen.Clear();
 
-            
-
             for (int i = 0; i < namen.Count(); i++)
             {
                 if (File.Exists(@"C:\Bierplicatie\AantalVanGasten\" + namen[i] + "ZijnGast.txt"))
                 {
-
                     StreamReader gastenLezer = new StreamReader(@"C:\Bierplicatie\AantalVanGasten\" + namen[i] + "ZijnGast.txt");
                     string regel;
                     while ((regel = gastenLezer.ReadLine()) != null)
@@ -953,6 +922,5 @@ namespace Bierplicatie
 
             return aantalGehaaldeBiertjes;
         }
-
     }
 }
