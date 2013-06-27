@@ -26,8 +26,33 @@ namespace Bierplicatie
         private string ingeLizeHaarMuziekje = @"C:\Bierplicatie\Media\ingelize.wav";
         private string nickZijnMuziekje = @"C:\Bierplicatie\Media\nick.wav";
 
+        private string algemenegastLocatie = @"C:\bierplicatie\AantalVanGasten\algemenegast.txt";
+
         private MaakTXTFile bestanden = new MaakTXTFile();
         private Muziek afspelen = new Muziek();
+
+        public int optellenAlgemeneGast(int aantalBierOptellen)
+        {
+            int bierwegschrijven = bestanden.bestandCheck(algemenegastLocatie);
+
+                switch (bierwegschrijven)
+                {
+                    case 0:
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+
+                }
+            
+
+            return 5;
+        }
+
+        private void wegschrijvenAlgemeen
+        {
+
+        }
 
         public int aftrekkenBierpuntenSilke(int bierpuntenSilke)
         {

@@ -26,6 +26,8 @@ namespace BierplicatieFormsApplication
         private bool gasten;
         private bool invoer;
 
+        #region constructor
+
         public Hoofdscherm()
         {
             aantalBierDaniel = opslaan.aftrekkenBierpuntenDaniel(0);
@@ -63,39 +65,10 @@ namespace BierplicatieFormsApplication
             thread.Start();
         }
 
-        //Deze thread is er dus alleen maar om in het ram te blijven.. Dan blijft die in ieder geval wat doen!
-        private static void ThreadJob()
-        {
-            while (true)
-            {
-                Thread.Sleep(100);
-            }
-        }
-
-        private void Test_Click(object sender, EventArgs e)
-        {
-            /*opslaan.aftrekkenBierpuntenSilke(1);
-            opslaan.aftrekkenBierpuntenNick(1);
-            opslaan.aftrekkenBierpuntenDaniel(1);
-            opslaan.aftrekkenBierpuntenEmma(1);
-            opslaan.aftrekkenBierpuntenIngeLize(1);
-            opslaan.optellenAantalBierSilke(1);
-            opslaan.optellenAantalBierNick(1);
-            opslaan.optellenAantalBierIngeLize(1);
-            opslaan.optellenAantalBierEmma(1);
-            opslaan.optellenAantalBierDaniel(1);
-            opslaan.optellenStatiegeldSilke(1);
-            opslaan.optellenStatiegeldDaniel(1);
-            opslaan.optellenStatiegeldNick(1);
-            opslaan.optellenStatiegeldEmma(1);
-            opslaan.optellenStatiegeldIngeLize(1);*/
-        }
-
-        private void pictureBox1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
-        {
-        }
+        #endregion constructor
 
         #region invoer
+
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             switch (keyData)
@@ -285,9 +258,12 @@ namespace BierplicatieFormsApplication
                     {
                         if (gasten == true)
                         {
-                            gasten = false;
-                            algemeneTekst();
-                            OvergeblevenBierLabel.Text = opslaan.berekenenHuidigAantalBier().ToString();
+                            /*
+                             * gasten = false;
+                             * algemeneTekst();
+                             * OvergeblevenBierLabel.Text = opslaan.berekenenHuidigAantalBier().ToString();
+                             * */
+
                         }
                         else
                         {
@@ -315,6 +291,12 @@ namespace BierplicatieFormsApplication
                             OvergeblevenBierLabel.Text = opslaan.berekenenHuidigAantalBier().ToString();
                         }
                     }
+                    else if (gasten == true)
+                    {
+                        gasten = false;
+                        algemeneTekst();
+                        OvergeblevenBierLabel.Text = opslaan.berekenenHuidigAantalBier().ToString();
+                    }
                     break;
 
                 case Keys.PageUp:
@@ -330,11 +312,12 @@ namespace BierplicatieFormsApplication
             }
             return base.ProcessCmdKey(ref msg, keyData);
         }
+
         #endregion invoer
 
         private void algemeneTekst()
         {
-            labelSilkeWatVoor.Text = weergaveNaam.labelSilkeWatVoorHoofd;
+            labelSilkeWatVoor.Text = weergaveNaam.labelRutgerWatVoorHoofd;
             labelNickWatVoor.Text = weergaveNaam.labelNickWatVoorHoofd;
             labelDanielWatVoor.Text = weergaveNaam.labelDanielWatVoorHoofd;
             labelEmmaWatVoor.Text = weergaveNaam.labelEmmaWatVoorHoofd;
@@ -346,18 +329,19 @@ namespace BierplicatieFormsApplication
 
         private void veranderingGastScherm()
         {
-            labelSilkeWatVoor.Text = weergaveNaam.labelSilkeWatVoorGast;
+            labelSilkeWatVoor.Text = weergaveNaam.labelRutgerWatVoorGast;
             labelNickWatVoor.Text = weergaveNaam.labelNickWatVoorGast;
             labelDanielWatVoor.Text = weergaveNaam.labelDanielWatVoorGast;
             labelEmmaWatVoor.Text = weergaveNaam.labelEmmaWatVoorGast;
             labelIngelizeWatVoor.Text = weergaveNaam.labelIngelizeWatVoorGast;
-            labelGastenWatVoor.Text = weergaveNaam.labelGastenWatVoorGast;
-            labelInvoerWatVoor.Text = "";
+            labelGastenWatVoor.Text = weergaveNaam.labelHuisWatVoorGast;
+            labelInvoerWatVoor.Text = weergaveNaam.labelGastenWatVoorGast;
+            //labelInvoerWatVoor.Text = "";
         }
 
         private void veranderingInvoerScherm()
         {
-            labelSilkeWatVoor.Text = weergaveNaam.labelSilkeWatVoorInvoer;
+            labelSilkeWatVoor.Text = weergaveNaam.labelRutgerWatVoorInvoer;
             labelNickWatVoor.Text = weergaveNaam.labelNickWatVoorInvoer;
             labelDanielWatVoor.Text = weergaveNaam.labelDanielWatVoorInvoer;
             labelEmmaWatVoor.Text = weergaveNaam.labelEmmaWatVoorInvoer;
@@ -416,18 +400,19 @@ namespace BierplicatieFormsApplication
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            Cursor.Hide();
-            algemeneTekst();
-        }
+        #region troep
 
         private void danielBierPuntenText_TextChanged(object sender, EventArgs e)
         {
+        }
+
+        //Deze thread is er dus alleen maar om in het ram te blijven.. Dan blijft die in ieder geval wat doen!
+        private static void ThreadJob()
+        {
+            while (true)
+            {
+                Thread.Sleep(100);
+            }
         }
 
         private void labelSilkeWatVoor_Click(object sender, EventArgs e)
@@ -436,6 +421,41 @@ namespace BierplicatieFormsApplication
 
         private void labelInvoerWatVoor_Click(object sender, EventArgs e)
         {
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void Test_Click(object sender, EventArgs e)
+        {
+            /*opslaan.aftrekkenBierpuntenSilke(1);
+            opslaan.aftrekkenBierpuntenNick(1);
+            opslaan.aftrekkenBierpuntenDaniel(1);
+            opslaan.aftrekkenBierpuntenEmma(1);
+            opslaan.aftrekkenBierpuntenIngeLize(1);
+            opslaan.optellenAantalBierSilke(1);
+            opslaan.optellenAantalBierNick(1);
+            opslaan.optellenAantalBierIngeLize(1);
+            opslaan.optellenAantalBierEmma(1);
+            opslaan.optellenAantalBierDaniel(1);
+            opslaan.optellenStatiegeldSilke(1);
+            opslaan.optellenStatiegeldDaniel(1);
+            opslaan.optellenStatiegeldNick(1);
+            opslaan.optellenStatiegeldEmma(1);
+            opslaan.optellenStatiegeldIngeLize(1);*/
+        }
+
+        private void pictureBox1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        {
+        }
+
+        #endregion troep
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Cursor.Hide();
+            algemeneTekst();
         }
     }
 }
