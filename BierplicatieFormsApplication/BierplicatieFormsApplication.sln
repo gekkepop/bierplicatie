@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BierplicatieFormsApplication", "C:\Users\Nick\Documents\Visual Studio 2012\Projects\Bierplicatie\BierplicatieFormsApplication\BierplicatieFormsApplication.csproj", "{55AD5193-7F11-4E44-A0FA-CEF2BA061F56}"
 EndProject
 Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
