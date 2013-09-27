@@ -12,6 +12,7 @@ namespace BierplicatieFormsApplication
             get { return vandaag; }
             set { vandaag = value; }
         }
+
         //
 
         public bool DatumWegschrijven()

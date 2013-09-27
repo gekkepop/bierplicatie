@@ -35,23 +35,22 @@ namespace Bierplicatie
         {
             int bierwegschrijven = bestanden.bestandCheck(algemenegastLocatie);
 
-                switch (bierwegschrijven)
-                {
-                    case 0:
-                    case 1:
-                    case 2:
-                    case 3:
-                    case 4:
-
-                }
-            
+            switch (bierwegschrijven)
+            {
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                default:
+                    break;
+            }
 
             return 5;
         }
 
-        private void wegschrijvenAlgemeen
+        private void wegschrijvenAlgemeen()
         {
-
         }
 
         public int aftrekkenBierpuntenSilke(int bierpuntenSilke)

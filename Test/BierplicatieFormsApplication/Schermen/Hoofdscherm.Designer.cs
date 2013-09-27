@@ -101,6 +101,7 @@
             this.labelNickWatVoor.BackColor = System.Drawing.Color.Transparent;
             this.labelNickWatVoor.ForeColor = System.Drawing.Color.White;
             this.labelNickWatVoor.Name = "labelNickWatVoor";
+            this.labelNickWatVoor.Click += new System.EventHandler(this.labelNickWatVoor_Click);
             // 
             // labelDanielWatVoor
             // 

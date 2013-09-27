@@ -319,7 +319,7 @@ namespace BierplicatieFormsApplication
         {
             labelSilkeWatVoor.Text = weergaveNaam.labelRutgerWatVoorHoofd;
             labelNickWatVoor.Text = weergaveNaam.labelNickWatVoorHoofd;
-            labelDanielWatVoor.Text = weergaveNaam.labelDanielWatVoorHoofd;
+            labelDanielWatVoor.Text = weergaveNaam.labelJosjeWatVoorHoofd;
             labelEmmaWatVoor.Text = weergaveNaam.labelEmmaWatVoorHoofd;
             labelIngelizeWatVoor.Text = weergaveNaam.labelIngelizeWatVoorHoofd;
             labelGastenWatVoor.Text = weergaveNaam.labelGastenWatVoorHoofd;
@@ -331,7 +331,7 @@ namespace BierplicatieFormsApplication
         {
             labelSilkeWatVoor.Text = weergaveNaam.labelRutgerWatVoorGast;
             labelNickWatVoor.Text = weergaveNaam.labelNickWatVoorGast;
-            labelDanielWatVoor.Text = weergaveNaam.labelDanielWatVoorGast;
+            labelDanielWatVoor.Text = weergaveNaam.labelJosjeWatVoorGast;
             labelEmmaWatVoor.Text = weergaveNaam.labelEmmaWatVoorGast;
             labelIngelizeWatVoor.Text = weergaveNaam.labelIngelizeWatVoorGast;
             labelGastenWatVoor.Text = weergaveNaam.labelHuisWatVoorGast;
@@ -343,7 +343,7 @@ namespace BierplicatieFormsApplication
         {
             labelSilkeWatVoor.Text = weergaveNaam.labelRutgerWatVoorInvoer;
             labelNickWatVoor.Text = weergaveNaam.labelNickWatVoorInvoer;
-            labelDanielWatVoor.Text = weergaveNaam.labelDanielWatVoorInvoer;
+            labelDanielWatVoor.Text = weergaveNaam.labelJosjeWatVoorInvoer;
             labelEmmaWatVoor.Text = weergaveNaam.labelEmmaWatVoorInvoer;
             labelIngelizeWatVoor.Text = weergaveNaam.labelIngelizeWatVoorInvoer;
             labelGastenWatVoor.Text = "";
@@ -450,6 +450,10 @@ namespace BierplicatieFormsApplication
         {
         }
 
+        private void labelNickWatVoor_Click(object sender, EventArgs e)
+        {
+
+        }
         #endregion troep
 
         private void Form1_Load(object sender, EventArgs e)
@@ -457,5 +461,7 @@ namespace BierplicatieFormsApplication
             Cursor.Hide();
             algemeneTekst();
         }
+
+
     }
 }
