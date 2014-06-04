@@ -40,10 +40,18 @@ namespace Bierplicatie2._0.code
 
         public int optellenBierPunten(int persoonInList, int aantal)
         {
-            //personen[persoonInList].aantalbierAftellen();
-
             return personen[persoonInList].aantalbierAftellen(aantal);
         }
 
+
+        internal int optellenBierPuntenGast(int wie, int p)
+        {
+            return personen[wie].aantalbierAftellenGast(p);
+        }
+
+        internal int optellenKrat(int wie, int aantal)
+        {
+            return personen[wie].kratAanslaan(aantal);
+        }
     }
 }

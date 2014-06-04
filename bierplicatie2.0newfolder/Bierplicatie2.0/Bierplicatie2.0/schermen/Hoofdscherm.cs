@@ -29,24 +29,15 @@ namespace Bierplicatie2._0
             InitializeComponent();
             this.personen = personen;
             regelOpmaakForm(personen);
-            regelInhoudVeldenMetNamen(personen);
+            //regelInhoudVeldenMetNamen(personen, 1);
 
             hoofdklasse = new bierKlasse(personen);
 
             regelInhoudAantallen();
+            regelInhoudVeldenMetNamen(personen, 1);
         }
 
         #region vulNaamSchermen
-
-        private void regelInhoudVeldenMetNamen(List<string> personen)
-        {
-            if (invoerNamenLabels == null)
-            {
-                invoerNamenLabels = maakListLabelsNamen(personen);
-            }
-            List<string> goedGevuldeList = invullen.terugGevenNamenMakkelijk(personen, status);
-            LabelsEindelijkVullenMetNaam(goedGevuldeList);
-        }
 
         private void regelInhoudVeldenMetNamen(List<string> personen, int statusVerandering)
         {
@@ -57,6 +48,33 @@ namespace Bierplicatie2._0
             }
             List<string> goedGevuldeList = invullen.terugGevenNamenMakkelijk(personen, status);
             LabelsEindelijkVullenMetNaam(goedGevuldeList);
+
+            if (statusVerandering != 1)
+            {
+                hideAantallen();
+            }
+            else
+            {
+                showAantallen();
+            }
+        }
+
+        private void hideAantallen()
+        {
+            foreach (Label label in invoerHoeveelhedenLabels)
+            {
+                label.Visible = false;
+            }
+            label10Aantal.Visible = false;
+        }
+
+        private void showAantallen()
+        {
+            foreach (Label label in invoerHoeveelhedenLabels)
+            {
+                label.Visible = true;
+            }
+            label10Aantal.Visible = true;
         }
 
         private void LabelsEindelijkVullenMetNaam(List<string> goedGevuldeList)
@@ -230,15 +248,19 @@ namespace Bierplicatie2._0
                     break;
 
                 case Keys.NumPad2:
+                    invoerKey2();
                     break;
 
                 case Keys.NumPad3:
+                    invoerKey3();
                     break;
 
                 case Keys.NumPad4:
+                    invoerKey4();
                     break;
 
                 case Keys.NumPad5:
+                    invoerKey5();
                     break;
 
                 case Keys.NumPad6:
@@ -265,33 +287,82 @@ namespace Bierplicatie2._0
 
         private void invoerKey1()
         {
-            biertjeAangeslagen(0);
-        }
-
-
-        private void biertjeAangeslagen(int wie)
-        {
-            int nieuwewaarde = hoofdklasse.optellenBierPunten(wie, 1);
-            invoerHoeveelhedenLabels[wie].Text = "" + nieuwewaarde;
-            kleuren();
-        }
-
-        private void kleuren()
-        {
-            foreach (Label label in invoerHoeveelhedenLabels)
+            if (status == 1)
             {
-                String hoeveelheid = label.Text;
-                int aantal = Convert.ToInt32(hoeveelheid);
-                if(aantal >= 0)
-                {
-                    label.ForeColor = Color.White;
-                }
-                else
-                {
-                    label.ForeColor = Color.Red;
-                }
+                biertjeAangeslagen(0);
             }
-        
+            if (status == 2)
+            {
+                gastBiertjeAangeslagen(0);
+            }
+            if (status == 3)
+            {
+                kratjeAangeslagen(0);
+            }
+        }
+
+        private void invoerKey2()
+        {
+            if (status == 1)
+            {
+                biertjeAangeslagen(1);
+            }
+            if (status == 2)
+            {
+                gastBiertjeAangeslagen(1);
+            }
+            if (status == 3)
+            {
+                kratjeAangeslagen(1);
+            }
+        }
+
+        private void invoerKey3()
+        {
+            if (status == 1)
+            {
+                biertjeAangeslagen(2);
+            }
+            if (status == 2)
+            {
+                gastBiertjeAangeslagen(2);
+            }
+            if (status == 3)
+            {
+                kratjeAangeslagen(2);
+            }
+        }
+
+        private void invoerKey4()
+        {
+            if (status == 1)
+            {
+                biertjeAangeslagen(3);
+            }
+            if (status == 2)
+            {
+                gastBiertjeAangeslagen(3);
+            }
+            if (status == 3)
+            {
+                kratjeAangeslagen(3);
+            }
+        }
+
+        private void invoerKey5()
+        {
+            if (status == 1)
+            {
+                biertjeAangeslagen(4);
+            }
+            if (status == 2)
+            {
+                gastBiertjeAangeslagen(4);
+            }
+            if (status == 3)
+            {
+                kratjeAangeslagen(4);
+            }
         }
 
         private void invoerKey6()
@@ -309,10 +380,19 @@ namespace Bierplicatie2._0
                     }
                     break;
 
-                case 6:
-                    break;
-
                 default:
+                    if (status == 1)
+                    {
+                        biertjeAangeslagen(5);
+                    }
+                    if (status == 2)
+                    {
+                        gastBiertjeAangeslagen(5);
+                    }
+                    if (status == 3)
+                    {
+                        kratjeAangeslagen(5);
+                    }
                     break;
             }
         }
@@ -344,6 +424,18 @@ namespace Bierplicatie2._0
                     break;
 
                 default:
+                    if (status == 1)
+                    {
+                        biertjeAangeslagen(6);
+                    }
+                    if (status == 2)
+                    {
+                        gastBiertjeAangeslagen(6);
+                    }
+                    if (status == 3)
+                    {
+                        kratjeAangeslagen(6);
+                    }
                     break;
             }
         }
@@ -408,6 +500,69 @@ namespace Bierplicatie2._0
 
                 default:
                     break;
+            }
+        }
+
+        private void biertjeAangeslagen(int wie)
+        {
+            int nieuwewaarde = hoofdklasse.optellenBierPunten(wie, 1);
+            invoerHoeveelhedenLabels[wie].Text = "" + nieuwewaarde;
+            kleuren();
+        }
+
+        private void gastBiertjeAangeslagen(int wie)
+        {
+            int nieuweWaarde = hoofdklasse.optellenBierPuntenGast(wie, 1);
+            invoerHoeveelhedenLabels[wie].Text = "" + nieuweWaarde;
+            kleuren();
+            regelInhoudVeldenMetNamen(personen, 1);
+        }
+
+        private void kratjeAangeslagen(int wie)
+        {
+            int nieuweWaarde = hoofdklasse.optellenKrat(wie, -24);
+            invoerHoeveelhedenLabels[wie].Text = "" + nieuweWaarde;
+            kleuren();
+            regelInhoudVeldenMetNamen(personen, 1);
+        }
+
+        private void kleuren()
+        {
+            foreach (Label label in invoerHoeveelhedenLabels)
+            {
+                String hoeveelheid = label.Text;
+                int aantal = Convert.ToInt32(hoeveelheid);
+                if (aantal >= 0)
+                {
+                    label.ForeColor = Color.White;
+                }
+                else
+                {
+                    label.ForeColor = Color.Red;
+                }
+            }
+            berekenTotaal();
+        }
+
+        private void berekenTotaal()
+        {
+            int doorrekenen = 0;
+            foreach (Label label in invoerHoeveelhedenLabels)
+            {
+                String hoeveelheid = label.Text;
+                int aantal = Convert.ToInt32(hoeveelheid);
+                doorrekenen = doorrekenen + aantal;
+            }
+
+            label10Aantal.Text = "" + doorrekenen;
+
+            if (doorrekenen >= 0)
+            {
+                label10Aantal.ForeColor = Color.White;
+            }
+            else
+            {
+                label10Aantal.ForeColor = Color.Red;
             }
         }
 
