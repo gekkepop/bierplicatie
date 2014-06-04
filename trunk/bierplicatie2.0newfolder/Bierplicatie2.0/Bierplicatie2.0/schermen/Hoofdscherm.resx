@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 220</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 260</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 300</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 340</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 380</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 420</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 460</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 500</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 540</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>175, 41</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 580</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>207, 41</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label1Aantal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1Aantal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label1Aantal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 220</value>
+  </data>
+  <data name="label1Aantal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 41</value>
+  </data>
+  <data name="label1Aantal.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label1Aantal.Text" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="&gt;&gt;label1Aantal.Name" xml:space="preserve">
+    <value>label1Aantal</value>
+  </data>
+  <data name="&gt;&gt;label1Aantal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1Aantal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1Aantal.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label2Aantal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2Aantal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label2Aantal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2Aantal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 260</value>
+  </data>
+  <data name="label2Aantal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 41</value>
+  </data>
+  <data name="label2Aantal.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="label2Aantal.Text" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="&gt;&gt;label2Aantal.Name" xml:space="preserve">
+    <value>label2Aantal</value>
+  </data>
+  <data name="&gt;&gt;label2Aantal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2Aantal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2Aantal.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label3Aantal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3Aantal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label3Aantal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3Aantal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 300</value>
+  </data>
+  <data name="label3Aantal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 41</value>
+  </data>
+  <data name="label3Aantal.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label3Aantal.Text" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="&gt;&gt;label3Aantal.Name" xml:space="preserve">
+    <value>label3Aantal</value>
+  </data>
+  <data name="&gt;&gt;label3Aantal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3Aantal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3Aantal.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label4Aantal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4Aantal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label4Aantal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label4Aantal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 340</value>
+  </data>
+  <data name="label4Aantal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 41</value>
+  </data>
+  <data name="label4Aantal.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label4Aantal.Text" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="&gt;&gt;label4Aantal.Name" xml:space="preserve">
+    <value>label4Aantal</value>
+  </data>
+  <data name="&gt;&gt;label4Aantal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4Aantal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label4Aantal.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label5Aantal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5Aantal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label5Aantal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label5Aantal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 380</value>
+  </data>
+  <data name="label5Aantal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 41</value>
+  </data>
+  <data name="label5Aantal.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label5Aantal.Text" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="&gt;&gt;label5Aantal.Name" xml:space="preserve">
+    <value>label5Aantal</value>
+  </data>
+  <data name="&gt;&gt;label5Aantal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5Aantal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label5Aantal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label6Aantal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label6Aantal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label6Aantal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label6Aantal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 420</value>
+  </data>
+  <data name="label6Aantal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 41</value>
+  </data>
+  <data name="label6Aantal.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label6Aantal.Text" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="&gt;&gt;label6Aantal.Name" xml:space="preserve">
+    <value>label6Aantal</value>
+  </data>
+  <data name="&gt;&gt;label6Aantal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6Aantal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label6Aantal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label7Aantal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7Aantal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label7Aantal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label7Aantal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 460</value>
+  </data>
+  <data name="label7Aantal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 41</value>
+  </data>
+  <data name="label7Aantal.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="label7Aantal.Text" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="&gt;&gt;label7Aantal.Name" xml:space="preserve">
+    <value>label7Aantal</value>
+  </data>
+  <data name="&gt;&gt;label7Aantal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7Aantal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label7Aantal.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label10Aantal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label10Aantal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>BankGothic Md BT, 30pt, style=Bold</value>
+  </data>
+  <data name="label10Aantal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label10Aantal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>729, 580</value>
+  </data>
+  <data name="label10Aantal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 41</value>
+  </data>
+  <data name="label10Aantal.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label10Aantal.Text" xml:space="preserve">
+    <value>......</value>
+  </data>
+  <data name="&gt;&gt;label10Aantal.Name" xml:space="preserve">
+    <value>label10Aantal</value>
+  </data>
+  <data name="&gt;&gt;label10Aantal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label10Aantal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label10Aantal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1024, 768</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAUAICAAAAEACACoCAAAVgAAABAQAAABAAgAaAUAAP4IAAAwMAAAAQAgAKglAABmDgAAICAAAAEA
+        IACoEAAADjQAABAQAAABACAAaAQAALZEAAAoAAAAIAAAAEAAAAABAAgAAAAAAAAAAAAAAAAAAAAAAAAB
+        AAAAAAAA////AMz//wCZ//8AZv//ADP//wAA//8A/8z/AMzM/wCZzP8AZsz/ADPM/wAAzP8A/5n/AMyZ
+        /wCZmf8AZpn/ADOZ/wAAmf8A/2b/AMxm/wCZZv8AZmb/ADNm/wAAZv8A/zP/AMwz/wCZM/8AZjP/ADMz
+        /wAAM/8A/wD/AMwA/wCZAP8AZgD/ADMA/wAAAP8A///MAMz/zACZ/8wAZv/MADP/zAAA/8wA/8zMAMzM
+        zACZzMwAZszMADPMzAAAzMwA/5nMAMyZzACZmcwAZpnMADOZzAAAmcwA/2bMAMxmzACZZswAZmbMADNm
+        zAAAZswA/zPMAMwzzACZM8wAZjPMADMzzAAAM8wA/wDMAMwAzACZAMwAZgDMADMAzAAAAMwA//+ZAMz/
+        mQCZ/5kAZv+ZADP/mQAA/5kA/8yZAMzMmQCZzJkAZsyZADPMmQAAzJkA/5mZAMyZmQCZmZkAZpmZADOZ
+        mQAAmZkA/2aZAMxmmQCZZpkAZmaZADNmmQAAZpkA/zOZAMwzmQCZM5kAZjOZADMzmQAAM5kA/wCZAMwA
+        mQCZAJkAZgCZADMAmQAAAJkA//9mAMz/ZgCZ/2YAZv9mADP/ZgAA/2YA/8xmAMzMZgCZzGYAZsxmADPM
+        ZgAAzGYA/5lmAMyZZgCZmWYAZplmADOZZgAAmWYA/2ZmAMxmZgCZZmYAZmZmADNmZgAAZmYA/zNmAMwz
+        ZgCZM2YAZjNmADMzZgAAM2YA/wBmAMwAZgCZAGYAZgBmADMAZgAAAGYA//8zAMz/MwCZ/zMAZv8zADP/
+        MwAA/zMA/8wzAMzMMwCZzDMAZswzADPMMwAAzDMA/5kzAMyZMwCZmTMAZpkzADOZMwAAmTMA/2YzAMxm
+        MwCZZjMAZmYzADNmMwAAZjMA/zMzAMwzMwCZMzMAZjMzADMzMwAAMzMA/wAzAMwAMwCZADMAZgAzADMA
+        MwAAADMA//8AAMz/AACZ/wAAZv8AADP/AAAA/wAA/8wAAMzMAACZzAAAZswAADPMAAAAzAAA/5kAAMyZ
+        AACZmQAAZpkAADOZAAAAmQAA/2YAAMxmAACZZgAAZmYAADNmAAAAZgAA/zMAAMwzAACZMwAAZjMAADMz
+        AAAAMwAA/wAAAMwAAACZAAAAZgAAADMAAAAAAO4AAADdAAAAuwAAAKoAAACIAAAAdwAAAFUAAABEAAAA
+        IgAAABEAAO4AAADdAAAAuwAAAKoAAACIAAAAdwAAAFUAAABEAAAAIgAAABEAAO4AAADdAAAAuwAAAKoA
+        AACIAAAAdwAAAFUAAABEAAAAIgAAABEAAADu7u4A3d3dALu7uwCqqqoAiIiIAHd3dwBVVVUAREREACIi
+        IgAREREAAAAAAP////////////////////////////////////////////////////////+siWVeXl5l
+        ia3/////////////////////////////iTpeXl5eOl5eXon//////////////////////////99eNDo6
+        Ojo6Ojo0Xv//////////////////////////iDo0NDQ0NDQ0NDQ6//////////////////////////9e
+        OjQ0NDQ0NDQ0NDr+/////////////////////////140NDQQEBAQEBAQNIn/////////////////////
+        ////OjQ0EAoKCgoKEAo0Xv////////////////////////86NBAKCgoKCgoKChBe////////////////
+        ////////rTQ0CgoKCgoKCgoJEF7///////////////////////9eNC4KCgoKCgoKCgkQOv//////////
+        /////////////1cJEAoKCgoKCgoKCRA6////////////////////////fCsKCgoKCgoKCgoKEDr/////
+        //////////////////97LAgKCgoKCgoKCgoQNP///////////////////////3VQCAoKCgoKCgoKChA0
+        ////////////////////////mVAICgoKCgoKCgoKChD//////////////////////4iZLAkKCgoKCgoK
+        CgoKEIj/////////////////////gpn2CgoKCgoKCgoKChAQXv////////////////////98UAgKCgoK
+        CgoKCgoKChBe/////////////////////1cHCQoKCgoKCgoKCgoKEDr/////////////////////MwkK
+        CgoKCgoKCgoKCgoQOv////////////////////80CgoJCQkJCQkJCQkJCgo0////////////////////
+        /zMJCQgICAgICAgICAgJCTT/////////////////////CAgHAQEBAQEBAQEBAQgICP//////////////
+        //////8BAQH1AAAAAAAAAAD1AQEB/////////////////////wEAAAD19QEBAQEB9QAAAAH/////////
+        ////////////APUBAQEB9fX19QEBAQEBAP/////////////////////19QEBAfUB9fX1AQEBAfX1////
+        //////////////////j2APX1AQEBAQEBAfUA9ff////////////////////////49vX1AAAAAPX19vj/
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////AAD//gAAP/4AAA//AAAH/wAAA/8AAAP/AAAH/wAB//8AAf/+AAH//gAB//4A
+        Af/+AAH//gAB//4AAf/+AAD//AAA//wAAP/8AAD//AAA//wAAP/8AAD//AAA//wAAP/8AAD//AAA//wA
+        AP/8AAD//AAA//wAAP//AAP//////ygAAAAQAAAAIAAAAAEACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA
+        AAD///8AzP//AJn//wBm//8AM///AAD//wD/zP8AzMz/AJnM/wBmzP8AM8z/AADM/wD/mf8AzJn/AJmZ
+        /wBmmf8AM5n/AACZ/wD/Zv8AzGb/AJlm/wBmZv8AM2b/AABm/wD/M/8AzDP/AJkz/wBmM/8AMzP/AAAz
+        /wD/AP8AzAD/AJkA/wBmAP8AMwD/AAAA/wD//8wAzP/MAJn/zABm/8wAM//MAAD/zAD/zMwAzMzMAJnM
+        zABmzMwAM8zMAADMzAD/mcwAzJnMAJmZzABmmcwAM5nMAACZzAD/ZswAzGbMAJlmzABmZswAM2bMAABm
+        zAD/M8wAzDPMAJkzzABmM8wAMzPMAAAzzAD/AMwAzADMAJkAzABmAMwAMwDMAAAAzAD//5kAzP+ZAJn/
+        mQBm/5kAM/+ZAAD/mQD/zJkAzMyZAJnMmQBmzJkAM8yZAADMmQD/mZkAzJmZAJmZmQBmmZkAM5mZAACZ
+        mQD/ZpkAzGaZAJlmmQBmZpkAM2aZAABmmQD/M5kAzDOZAJkzmQBmM5kAMzOZAAAzmQD/AJkAzACZAJkA
+        mQBmAJkAMwCZAAAAmQD//2YAzP9mAJn/ZgBm/2YAM/9mAAD/ZgD/zGYAzMxmAJnMZgBmzGYAM8xmAADM
+        ZgD/mWYAzJlmAJmZZgBmmWYAM5lmAACZZgD/ZmYAzGZmAJlmZgBmZmYAM2ZmAABmZgD/M2YAzDNmAJkz
+        ZgBmM2YAMzNmAAAzZgD/AGYAzABmAJkAZgBmAGYAMwBmAAAAZgD//zMAzP8zAJn/MwBm/zMAM/8zAAD/
+        MwD/zDMAzMwzAJnMMwBmzDMAM8wzAADMMwD/mTMAzJkzAJmZMwBmmTMAM5kzAACZMwD/ZjMAzGYzAJlm
+        MwBmZjMAM2YzAABmMwD/MzMAzDMzAJkzMwBmMzMAMzMzAAAzMwD/ADMAzAAzAJkAMwBmADMAMwAzAAAA
+        MwD//wAAzP8AAJn/AABm/wAAM/8AAAD/AAD/zAAAzMwAAJnMAABmzAAAM8wAAADMAAD/mQAAzJkAAJmZ
+        AABmmQAAM5kAAACZAAD/ZgAAzGYAAJlmAABmZgAAM2YAAABmAAD/MwAAzDMAAJkzAABmMwAAMzMAAAAz
+        AAD/AAAAzAAAAJkAAABmAAAAMwAAAAAA7gAAAN0AAAC7AAAAqgAAAIgAAAB3AAAAVQAAAEQAAAAiAAAA
+        EQAA7gAAAN0AAAC7AAAAqgAAAIgAAAB3AAAAVQAAAEQAAAAiAAAAEQAA7gAAAN0AAAC7AAAAqgAAAIgA
+        AAB3AAAAVQAAAEQAAAAiAAAAEQAAAO7u7gDd3d0Au7u7AKqqqgCIiIgAd3d3AFVVVQBEREQAIiIiABER
+        EQAAAAAA////////////////////////////iF5eXl6I////////////Ol5eOjo6Xv7//////////zo6
+        NDQ0NDSI//////////86NDQ0EBA0Xv//////////OjQQEAoQEDr//////////zo0EAoKCgoQ////////
+        //80NAkJCQkJEP//////////MwkJCQkJCQn//////////zMJCAgICAgI//////////8IBwEBAQEBB///
+        ////////B/X19fX19QH///////////b1AAAAAPX1///////////29vX19fX29v//////////B/YrKysr
+        9gf/////////////////////////////z4f4B///8AP4B/AB8APwAPAB8ADwAPAP8ADwD/AP8A/wD/AP
+        8A/wD/AP8A/wD/AP8A/wD/AP8A/wD///8A8oAAAAMAAAAGAAAAABACAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAUAAAAHAAAACgAAAAwAAAAOAAAADgAA
+        AA8AAAAQAAAAEAAAAA8AAAAPAAAADgAAAA0AAAALAAAACQAAAAcAAAAEAAAAAwAAAAEAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAAABIAAAAcAAAAKAAA
+        ADUAAAA+AAAARgAAAEoAAABNAAAATQAAAEwAAABJAAAAQwAAADwAAAAzAAAAKQAAAB8AAAAVAAAADQAA
+        AAYAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAADAAA
+        ABoAAAAuAAAAUgkePLUPL1zkFEeE+BhNlv8aUaT/Glun/xpSpf8YSpT/FEOD+CE/auUSKEK1AAAAWAAA
+        ADsAAAAqAAAAHQAAABIAAAAIAAAAAwAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAACAAAACgAAAB8QHjWmEz5+/RpRo/8aUqT/Glen/xpjq/8aWqn/Glip/xpXqf8aW6v/GlOp/zl3
+        tv8wY7D/E0N//QUVKKkAAAA7AAAAKgAAAB4AAAATAAAACQAAAAQAAAABAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAABAAAABwAAACY4ZqT9GlGk/xpTpv8aYKv/GmSs/xpirf8aarD/Gmmw/xpl
+        sf8aYrD/Gm6z/zd+u/8vbbT/GlSq/xVIk/oAAABGAAAAMgAAACkAAAAfAAAAFAAAAAsAAAAFAAAAAQAA
+        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
+        6Psjld70JKPn8SSo7fAlrfPuJLH37SSz++0ktf3tJLb+7SS3/+0kt//tJLb/7SS1/e0js/zsI7D37SSs
+        9e4ij+j1IIfk9R1PiU0AAAAFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyph
+        TU1dxyz/cMhl/YW45/kloOLyJJ7n8yWr7/AlsPTvJLT47iS1++0kt/3tJLj+7SS5/+0kuf/tJLn/7SS3
+        /e0ktfztJKX28CWr9O8ik+z0IpDm9CNhp3MAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAABzd+WpFfyC3/hsqe/GOz5fckneL0Jqnq8Sav8PAmsvXvJrb47ya4/O4muv3uJrv/7ia7
+        /+4mu//uJrv/7ia5/e4luPztJK/57ySp9PAknu7zI5To9CZuuJMAAAAMAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAACz6OWb1hyTL/oMrZ/DWk4PUnpOXzJqzs8Sey8fAotfbwJ7n57ye7
+        /O4nvf3uJ77/7ie9/+4nvf/uJ73/7ia8/u4muvzuJrX67yWu9fAmr/HwI5Tn9Sd5ybIAAAAQAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD0afVt2CyY/9dLbk+SaY3vYoqObzJ7Hu8Si0
+        8vEpufbwKL368Cm//O8pwP7vKcH/7ynB/+8pwf/vKMD/7yi//u8ovv3vJ7T68Ca39+8mpe/zJZ/r9SeL
+        180AAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE1qzaPGmy+H7PKXf9yio
+        4/Qpr+nzKbTv8im38/EpvPfwKb/77yrB/PAqw/7wKsT/8CrD//Aqw//wKcL/7ynB/u8pwP3vJ7f68Ce2
+        9/AnqvH0JZ3r9Saa4+oAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGJ+9
+        2/dgqd36J6Td9Sim4/UosOvzKbbw8iu89fErv/jxK8L88CvE/fArxf7wK8b/8CvG//Arxf/wK8X/8CvE
+        //Aqwv3wKcD87ym9+fAptPTyJ6zv8yaW5vccPF8wAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAACKkFgNCuD0fomidb5KKjg9iip5fYqsuv1K7rx8yy/9vIrwvjxLcT88S3G/fEtx/7xLcj/8S3I
+        //EtyP/xLcf/8SvH//ArxP7wK8L88Cm9+PEor/P0KKfv9Sam6fUrX5lcAAAABgAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAGKVyPYSeI0vkpo9v2Karh9iuz6PUrt+30LL3y8i3B9/ItxfnyLcf88S3J
+        /vEuyv/xLsr/8S7K//Etyv/xLcn/8S3J//Etx/7xK8T88CvC+vErvvfxJ6jv9iip7PUuc7F+AAAACQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKLWOhiSeK1Poqpd73LKXi9yuv6vcuuO/3MsD19jbH
+        +fU7w/n3L8X79y/J/fU5zP71R9L/9ErS//RBz//0Msj+9jHM//Q1yP30Mb/79S7F+/Mpt/X1Krjy8yeb
+        6vcvesCgAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOM3a0qzae2/s+teX5Prfs+ji/
+        8/pEyff7VNL7+2fW/fuA3P38Z9f9/VTV/v1e2f/9ht/+/ZDe/v112v79SdL+/U3S/vta0/37XNX9+T7L
+        /PgxxPn3Mrn19yy08fYxjNLBAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASO5vR2lrA
+        7v180vb9cdT6/WfW/P522f3+muH9/rjn/v7J7f7/ye3+/7/q/v+g5f7/uej+/77p/v+q5f7/k+L+/6Dj
+        /v6e4/7+pOH9/nja/v5n1v39Us78/EDE+PxErObnAAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAWUL7u+X3X/P+r4v7/puP+/7Tn/v++6v7/x+3+/9Pw/v/f9f3/5fb9/9/0/f/M7v7/0e/+/9Pw
+        /v/S8P7/0vD9/87v/v/L7v7/yu3+/7/q/v++6v7/m+H+/3nZ/f6C1Pn8AAAAGAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAYm979/Ljn/v++6f7/xez+/9fy/v/Y8v7/3PP9/+L2/f/k9v7/7Pj9/+v4
+        /f/f9P7/5/f+/+v4/f/s+P3/6vj9/+H1/v/g9f3/4vb9/930/v/e9P3/0vD+/8Dq/v+x5f7+AAAAGQAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZyO3+/87v/v/U8f7/4vX9/+/6/f/x+/7/9Pv+//r9
+        /v/7/v7//P7////////////////////////9/v///f7///r9/v/1+/7/8/v+/+z5/f/k9v3/3vT+/9Tx
+        /v/C6/7/AAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZ4fX9/+H1/f/t+f7//f7/+/v9
+        /fbv9vnn4/H34d7w9ura7fXj2u7348fn9vjL6fX/veX1/8Ln9vjV7vfj1+3149Xs9uPj8ffh8ff67Pr8
+        /fj9/v//8fv+/9bx/v/L7v7/AAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAZ6vj+9v7+
+        //zl8vfZw+b0873l9v/R7fj/x+r5/8Tq+v/F6/v/y+37/87v/P/N7vz/z+/8/9Xx/P/Y8fv/0O/7/8Tq
+        +v/A6Pn/zev4/8zq9v/P6vT06PP46/7+//3j9v7/AAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAY9fr83crn8/++5vf/wer7/9Hw/P/W8fz/2PL8/9rz/P/R8Pz/4PX8/+P2/P/k9vz/z+/8/+D1
+        /P/X8vz/0fD8/930/P/g9fz/3PP8/9fy/P/H7Pv/vub3/8rn8//2+/3mAAAAGAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAS6/P2/Mvn8//I6ff/y+37/9fy/P/O7/z/zu/8/9fy/P/g9fz/4/b8/930
+        /P/W8fz/4PX8/+P2/P/g9fz/0vD8/+T2/P/Z8vz/1/L8/9rz/P/O7vv/y+r3/8jm8//r8/b8AAAAEgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIxdDWqvP19v/f8Pf/zOn0/8vp9v/O7Pj/z+35/9Pv
+        +v/Y8fv/5Pb8/9zz/P/i9fz/2PL8/9rz/P/X8vz/3fP7/9vy+v/c8fn/0e34/8Lm9v/K6PT/3vD3//P1
+        9v/F0NaqAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAACJKlrkvN2N3S7fL0/e/4
+        +//k8/n/3e/2/9Ts9f/W7fX/1Oz1/8Pm9f/Z7vb/yOj2/8no9f/O6vX/2e31/9ru9f/Y7fb/6fT5//D4
+        +//v8vT9zNjd0penrksAAAAIAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAMAAAAKAAAAE624vGzCz9Sp09zg1eXr7fPr8vP18/T1/fn5+f////////////n5+f/09fX96/Lz9eXr
+        7fPT3ODVxM/Uqa24vGwAAAATAAAACgAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAHAAAADAAAABEAAAAUAAAAFQAAABcAAAAZAAAAGQAA
+        ABcAAAAVAAAAFAAAABEAAAAMAAAABwAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////AAD///////8AAP/+
+        AAAf//////wAAA///////AAAA//////8AAAB//////wAAAD//////gAAAD/////+AAAAH/////4AAAAP
+        /////gAAAAf////+AAAAA/////wAAAAD/////AAAAA8AAP/8AAA//wAA//wAAB//AAD//AAAH/8AAP/8
+        AAAf/wAA//gAAB//AAD/+AAAH/8AAP/4AAAf/wAA//gAAB//AAD/+AAAH/8AAP/4AAAP/wAA//AAAA//
+        AAD/8AAAD/8AAP/wAAAP/wAA//AAAA//AAD/8AAAD/8AAP/wAAAP/wAA//AAAAf/AAD/4AAAB/8AAP/g
+        AAAH/wAA/+AAAAf/AAD/4AAAB/8AAP/gAAAH/wAA/+AAAAf/AAD/4AAAB/8AAP/gAAAH/wAA/+AAAAf/
+        FAD/4AAAB//wD//gAAAH//AP/+AAAAf/+B//4AAAB//////gAAAH/w/w//gAAB//D/D//wAA//8P////
+        /////xgAKAAAACAAAABAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAUAAAAJAAAAEwAAABwAAAAkAAAAJgAAACgAAAAmAAAAJAAA
+        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
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLz8/Oz5Pf+0cft
+        /f/R8P3/0e/9/+n4/f/b8/3/5fb9/+L1/f/g9f3/2/P9/9Tx/f/Q8P3/xuz9/+L1/dD09PS5AAAAEgAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB62t
+        rU7l5eWx/f7/3ev4/s3h9f3W1fH95M3v/f/c8/3/xuz9/8Ts/f/R8P3k3vT91un3/sr7/f/X5ubmubi4
+        uFkAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABAAAABQAAABGnp6dR1dXVnOrq6sTz8/Pd9/f3////////////9/f3//Pz89/q6urF1dXVnKur
+        q1UAAAARAAAABQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAUAAAALAAAAEQAAABQAAAAWAAAAGAAAABgAAAAWAAAAFAAA
+        ABEAAAALAAAABQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD/AAD//gAAP/4AAA//AAAH/wAAA/8AAAP/AAAH/wAB//8AAf/+AAH//gAB//4AAf/+AAH//gAB//4A
+        Af/+AAD//AAA//wAAP/8AAD//AAA//wAAP/8AAD//AAA//wAAP/8AAD//AAA//wAAP/8AAD//AAA//wA
+        AP//AAP//////ygAAAAQAAAAIAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAePGeTLFKK9jZsqP82c6v/LVqP+Bw7Yq0AAAAjAAAABwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAABDdLgEM12e/TZxrf82fbX/Nn+5/zZ/uf81aK3/BxAaTgAAACQAAAAFAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAMWizNzl2uvk4hb/8NonF/zaNy/83kM78OIDK+Rs7Z5EAAABDAAAAIQAA
+        AAQAAAAAAAAAAAAAAAAAAAAAAAAAADVst3o9i8vyPJfb7juh5e07pOnvO6Tp7zqU3/IlWJWxAAAAYgAA
+        AEYAAAAkAAAABgAAAAAAAAAAAAAAAAAAAAA3dr2ePpPT70Cl5+tBr/PoP7P36T+y9uo+q+/sLm65uQAA
+        AEkAAAA6AAAAIQAAAAoAAAAAAAAAAAAAAAAAAAAAO3nCvkKY2PBHse/qSLz750nA/+VIv//lRrv75j+Y
+        57YAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEKSy9dJquLvT7zy61LG/elTyP/oUsf/6FDE
+        /ehKru/KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABNl9PkVrjp8WHJ9+5l0f7tatT/7WjT
+        /+xizPztVrbx4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAX6rd9X3M8fSQ2frznuH+9KLi
+        /vSf4f70lN3+84HN+OwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI/L7fu44Pj6y+v8+tbv
+        //vZ8f771vD++87s/vq53/r3AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC13fT83Ovz/ujs
+        7f/t7e3/7u7v/+zv8P/m8PX/1+78/gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA2efw/ubt
+        8P/09/v/+fz+//n8/v/3+fv/6/Dz/+Lt8/4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzd
+        6fTd4ub/3Or0/9vu+f/o8vn/1+n0/93j5v/U5e76AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AADG3+wXzdrhts/V2PLQ09X9z9PV/c7V2PLJ2eK2yePyGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAPgH
+        AADwA6gX8AEAAPAAW0jwAHQg8A9jYvAPay7wD21l8A9bU/APZGXwD0Nh8A95QvAPXSDwD0lE//8EAA==
+</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Hoofdscherm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
