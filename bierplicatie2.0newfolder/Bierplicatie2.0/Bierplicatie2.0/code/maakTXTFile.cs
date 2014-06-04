@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 using System.Windows.Forms;
 
 namespace Bierplicatie2._0.code
 {
-    class maakTXTFile
+    internal class maakTXTFile
     {
         public maakTXTFile()
         {
@@ -43,6 +43,7 @@ namespace Bierplicatie2._0.code
                         oudewaardes.Add(regel);
                     }
                     oudeWaardeVullen.Close();
+                    oudeWaardeVullen.Dispose();
                     string laatstewaarde;
                     try
                     {
@@ -56,7 +57,7 @@ namespace Bierplicatie2._0.code
                     try
                     {
                         waarde = Convert.ToInt32(laatstewaarde);
-                        
+
                         return waarde;
                     }
                     catch
@@ -121,6 +122,34 @@ namespace Bierplicatie2._0.code
                 return -999;
             }
         }
+
+        public int wegSchrijven(string waarIsHetBestand, int aantalAfschrijven)
+        {
+            int mogelijkOUdeWaarde = bestandCheck(waarIsHetBestand);
+
+            if (mogelijkOUdeWaarde > -800)
+            {
+                System.DateTime vandaag = new System.DateTime(System.DateTime.Now.Year, System.DateTime.Now.Month, System.DateTime.Now.Day, System.DateTime.Now.Hour, System.DateTime.Now.Minute, System.DateTime.Now.Second, System.DateTime.Now.Millisecond);
+
+                StreamWriter wegSchrijven = File.AppendText(waarIsHetBestand);
+                int nieuweWaarde = mogelijkOUdeWaarde - aantalAfschrijven;
+                using (wegSchrijven)
+                {
+                    wegSchrijven.WriteLine("{0}", vandaag);
+                    wegSchrijven.WriteLine("{0}", System.DateTime.Now.DayOfWeek);
+                    wegSchrijven.WriteLine("{0}", nieuweWaarde);
+                    wegSchrijven.WriteLine("---------------------------------------------");
+                }
+
+                wegSchrijven.Dispose();
+
+                return nieuweWaarde;
+            }
+            else
+            {
+                MessageBox.Show("Kan niet werken in bestand op locatie " + waarIsHetBestand, "ERROR", MessageBoxButtons.OK);
+                return -9999;
+            }
+        }
     }
 }
-    

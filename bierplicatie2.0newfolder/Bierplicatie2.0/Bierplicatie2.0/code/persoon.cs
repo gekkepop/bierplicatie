@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Bierplicatie2._0.code
 {
-    class persoon
+    internal class persoon
     {
-        maakTXTFile maakTXTFile = new maakTXTFile();
-        string defaultLocatieBierpunten = @"C:\bierplicatie\Bierpunten\";
-        string defaultLocatieAantal = @"C:\bierplicatie\AantalVanHuisgenoten\";
-        string defaultLocatieStatiegeld = @"C:\bierplicatie\statiegeld\";
+        private maakTXTFile maakTXTFile = new maakTXTFile();
+        private string defaultLocatieBierpunten = @"C:\bierplicatie\Bierpunten\";
+        private string defaultLocatieAantal = @"C:\bierplicatie\AantalVanHuisgenoten\";
+        private string defaultLocatieStatiegeld = @"C:\bierplicatie\statiegeld\";
 
         public string naam;
 
@@ -52,8 +52,11 @@ namespace Bierplicatie2._0.code
             this.naam = naam;
         }
 
-        public void aantalbierOptellen()
+        public int aantalbierAftellen(int aantal)
         {
+            string locatie = defaultLocatieBierpunten + naam;
+
+            return maakTXTFile.wegSchrijven(locatie, aantal);
         }
 
         public void bierpuntenOptellen()

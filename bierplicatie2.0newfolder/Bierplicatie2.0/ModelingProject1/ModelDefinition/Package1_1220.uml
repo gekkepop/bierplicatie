@@ -1,0 +1,3566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="49a36821-826f-4904-833f-7038c4291f14"
+  name="_0"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ae5051db-e967-48de-80e8-93771993e50b"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DBierplicatie2._0"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="bf383925-0c21-40e8-8b14-f15d16877aaa"
+        LastKnownName="code"
+        LastKnownLocation="Package2_1220.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="1efc120f-99cb-49e3-b721-007633f7c95c"
+        name="Hoofdscherm"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="a9fe6338-c673-44f4-8dd3-625ab84c344e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="7495b558-755a-4ca9-bda3-36f0895eab3a"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db43d5fc-7fa6-42a8-ba9c-c9c31725d336">
+                <propertyInstance
+                  Id="25b2fc41-f372-4075-b38f-7a4e904ba2bf"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fa2216fe-787d-4823-9e2c-bf33e04acbee">
+                <propertyInstance
+                  Id="60f8713b-5663-46fe-9a74-fc7ad1856d5c"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="86f8eedb-959d-480e-8552-b7f531583fa8">
+                <propertyInstance
+                  Id="7ab55bbf-4f30-4b80-ad84-c464adc43e66"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f19079d8-5f4f-4a6e-8dc0-f2732dfda755">
+                <propertyInstance
+                  Id="a8a5fc66-acd7-4b5e-aef4-b168f494242d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a5fa1a2-9aeb-419b-a24e-988ee95d9df9">
+                <propertyInstance
+                  Id="b084a3f5-9962-4b7c-b197-cc60f56cd56d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="4e7eace5-cb41-4aba-be4e-f73bd77a0bdf"
+            isSubstitutable="false">
+            <classMoniker
+              Id="3c83574a-28e9-4d03-8fd8-5a16e36b48cd"
+              LastKnownName="Form"
+              LastKnownLocation="Package1_1225.uml" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association
+            Id="07e60207-cd63-4955-805e-1585b1372269"
+            isDerived="false"
+            sourceEndRoleName="Hoofdscherm"
+            targetEndRoleName="bierKlasse"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="c7929d31-5b3e-41ee-98f1-581f5b633c69"
+              LastKnownName="bierKlasse"
+              LastKnownLocation="Package2_1220.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8db97992-2796-4d4f-926c-95aea6ec53d9"
+                  name="Hoofdscherm"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="54cb128d-f66c-4772-810a-f719de79778e"
+                  name="bierKlasse"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="3fc9c22d-0367-400d-a165-4d80e3b9febc"
+            isDerived="false"
+            sourceEndRoleName="Hoofdscherm"
+            targetEndRoleName="InvullenNaamVelden"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="3c35fbb2-4bdd-4664-93d8-2b082afaafb1"
+              LastKnownName="InvullenNaamVelden"
+              LastKnownLocation="Package2_1220.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0d6bb46d-889f-47e7-8719-9dd30f299cbf"
+                  name="Hoofdscherm"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6d7546a8-9139-4f93-af38-a132d9514b21"
+                  name="InvullenNaamVelden"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="0ce1b720-2a23-493e-9b16-ea0ae0607d80"
+            name="status"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c34e9733-7f3a-407d-ab93-63233cca03db"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dstatus"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b795a0b1-5fce-476f-a12c-aaedcc486aa1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6683d991-d83b-4896-a590-89f2c2be73a3">
+                    <propertyInstance
+                      Id="c2aa6488-8ff7-42a3-8383-bc11d495ca1b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1da3b8a-f770-4787-b7cc-79a497e62cc3">
+                    <propertyInstance
+                      Id="bcc461d4-8033-4a6f-a5ae-f0288e97d35d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="221a1b72-7259-4f2f-8187-676fbf6487a0">
+                    <propertyInstance
+                      Id="2da51ea1-ec4f-4c72-b8e1-265af1a9fb5f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e3b21a36-ea13-4665-8ed2-e425defa6eec">
+                    <propertyInstance
+                      Id="0b298259-4a8e-415f-924d-9f9f66fae1cd"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="02c4731f-9854-4cf3-9cdd-eb8808314c34">
+                    <propertyInstance
+                      Id="1274115c-5683-4ae5-9db2-f5106ec1afc1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0d61ba45-d0c1-4c49-826d-7e3d2c5c2899"
+            name="labels"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="587b2379-18e1-4a3d-94ec-6a61512b088b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabels"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc06aa68-e837-4451-912f-dac27381bf45"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da304656-1053-4bc5-9d4a-5bd5af1c7445">
+                    <propertyInstance
+                      Id="7436b7c7-a757-4551-8083-ab141b99ebe5"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46435f92-d2bb-4018-afc8-07b14ad53d7f">
+                    <propertyInstance
+                      Id="ecd9f25a-b1d1-4996-8bb8-22451354419a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1420369b-3458-4a0f-9984-94351cde0943">
+                    <propertyInstance
+                      Id="b07f6955-f8e9-41bf-8354-ee7ddf56b763"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e27aa84-4ad6-4d08-8367-3861c93d3f51">
+                    <propertyInstance
+                      Id="a00bbe38-ffb6-47a3-9986-cbdbf969372b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ede9f80-18f0-40e6-be91-9590185ce228">
+                    <propertyInstance
+                      Id="ceec44ff-e03f-49ae-8780-ad7bf6467b6a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5d385cab-b696-4bd8-8dc0-ef59efe01140"
+                LastKnownName="List&lt;Label‎&gt;"
+                LastKnownLocation="Package5_1220.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4cb58a01-8a2b-4037-9ab4-47a7e74ad0f2"
+            name="invullen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b323352c-013e-4a53-8ea9-2f058a1d951a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dinvullen"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="73bed952-9bbf-4daa-b2e6-1f94ef00a24b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30a0401f-09f2-4909-98ea-a9bd09306c68">
+                    <propertyInstance
+                      Id="d82524f4-5251-41fd-9e65-d6e7456bc0e8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="356b60fc-d525-49b0-a710-1694e98e225f">
+                    <propertyInstance
+                      Id="e179d67f-21b8-49ba-a217-43d5d09b9528"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57ed51eb-6ff5-439d-ac37-cf2e3896c7de">
+                    <propertyInstance
+                      Id="f479851f-0e73-41b2-abf7-b06e3829fb14"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ca84877-e2e1-4166-8643-61149a2512b5">
+                    <propertyInstance
+                      Id="9d0c942d-bdf4-43aa-87e2-29c0f45fa211"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="689066e5-878c-470d-904e-171d3a7ce912">
+                    <propertyInstance
+                      Id="9a892e08-6759-4ce3-b135-a856fb7400a3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="3c35fbb2-4bdd-4664-93d8-2b082afaafb1"
+                LastKnownName="InvullenNaamVelden"
+                LastKnownLocation="Package2_1220.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="43f74ecb-ae37-4270-9780-5e6aed8a81c7"
+            name="invoerNamenLabels"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f050a7ff-2c23-456c-84c0-4c6f14cfb4d6"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DinvoerNamenLabels"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f69c2eb5-7978-4b3c-ada5-55b70b535a86"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd879b9b-35b1-4f30-8075-ae73ee5f3743">
+                    <propertyInstance
+                      Id="0b8e850a-72b8-49d4-baaa-68d01c3406eb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2854b6a-0e38-406f-84ac-f5fc81d7d840">
+                    <propertyInstance
+                      Id="9fdb0d13-38d2-4b4b-be80-1ddb0611e5e2"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f7bbfd9-a269-4d36-86b0-d7180cfae10a">
+                    <propertyInstance
+                      Id="82bf26ea-063f-45c7-973d-87d480615ac9"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1dd3b200-d6bf-45dd-8467-818ae72fedd7">
+                    <propertyInstance
+                      Id="b2ef97cd-3fd9-4742-9451-7cdaa7adb927"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0be5f3d6-1b98-431f-a57b-757781472290">
+                    <propertyInstance
+                      Id="ef9a2e85-2650-4459-8793-d6e1bcb59c30"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5d385cab-b696-4bd8-8dc0-ef59efe01140"
+                LastKnownName="List&lt;Label‎&gt;"
+                LastKnownLocation="Package5_1220.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="5cde6656-1f0c-4f18-9259-f80b68d29ce7"
+            name="invoerHoeveelhedenLabels"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b958a457-552d-4d22-8b1e-ca93959a9e5f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DinvoerHoeveelhedenLabels"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fd3b9522-81f2-44a1-9ae3-a926282a6734"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6103b59-f2a0-4102-bfb1-4bd9277d3a1f">
+                    <propertyInstance
+                      Id="66cb3a7d-6be3-4f6e-9d79-a04e5fe19119"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42b1e0b5-8c35-4cb8-ad1d-7ce20dd9bb5f">
+                    <propertyInstance
+                      Id="9a0bb29b-c3b3-41c7-ad4f-495db64096d1"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8dee517a-e3b7-49d9-94f6-495b92573b56">
+                    <propertyInstance
+                      Id="82ed8946-0e46-4c9a-94f3-ce52fdbc0f13"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="538d8540-d0bf-44ce-886d-5de531fec373">
+                    <propertyInstance
+                      Id="6ce0d1d5-e735-4fd5-827d-2ef78966276e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2932494b-5466-4d20-85c0-ccbbb05b0ec9">
+                    <propertyInstance
+                      Id="672c252a-9075-4c52-82db-f8de7553793f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="5d385cab-b696-4bd8-8dc0-ef59efe01140"
+                LastKnownName="List&lt;Label‎&gt;"
+                LastKnownLocation="Package5_1220.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a8b04793-0148-40c0-97bb-03b80579a300"
+            name="personen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="31a4c851-aa18-4f30-982f-cc6d4fe37e1b"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dpersonen"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="334dbc58-3b6b-4d5f-87be-09a1313d4490"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="442c8ae4-b6df-4b65-973b-d0362e4e5152">
+                    <propertyInstance
+                      Id="e1337e38-6b86-432b-b3d2-429427d7a123"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c94b6e1b-34ae-4727-ba28-11cffc61a939">
+                    <propertyInstance
+                      Id="4c2d9041-405d-4f0d-8825-b34d685f5636"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83bcc5cc-cd4e-4898-a83d-87a029d876cd">
+                    <propertyInstance
+                      Id="85240be7-51dc-4183-9ea0-21ba94735b89"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6dfe284f-5a14-41f1-b023-c84460c0f66e">
+                    <propertyInstance
+                      Id="91cded48-dcbe-4914-b531-cf3187a6d679"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13b1c1fd-3811-4309-9975-caec0216b4b3">
+                    <propertyInstance
+                      Id="2112a767-f286-4c9e-b168-720752b7ea1f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="771cc3e6-48b3-4e16-80a1-da87f33586f1"
+                LastKnownName="List&lt;String‎&gt;"
+                LastKnownLocation="Package5_1220.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="76de82e3-42ce-40f0-99a7-1ed34d13d78c"
+            name="hoofdklasse"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5f183a09-8bb5-4ecc-b5f1-a4f6ff65704f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dhoofdklasse"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d774a1cf-7d89-4d4c-be69-b2ec16086b8d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="877c55f3-f682-4e58-aedb-e609ed14ea07">
+                    <propertyInstance
+                      Id="edf83c5b-ff0c-4794-b894-aaa25de26f23"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3af7612-32f9-4cfc-a1c2-4282d7b04858">
+                    <propertyInstance
+                      Id="6d13055c-ccfd-4eb7-8307-a2c9a391c734"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fec3736-e8ce-45c0-adab-0383c1e3fa88">
+                    <propertyInstance
+                      Id="4c589b4a-6233-49e6-9e0d-e85b8980d6c6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f2d374e-5500-4955-8ebb-ecd1a5ecb32f">
+                    <propertyInstance
+                      Id="8f67b452-fcac-455e-ac43-648d455016ab"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="171dac19-aeab-4e7d-ab5e-85f7d40cf416">
+                    <propertyInstance
+                      Id="fa18af9d-94e5-47dd-a592-cbbcd61781f9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c7929d31-5b3e-41ee-98f1-581f5b633c69"
+                LastKnownName="bierKlasse"
+                LastKnownLocation="Package2_1220.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="6565c654-d8e5-4073-abec-546a6a0de32c"
+            name="components"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c8f83e80-bfda-4db9-8bfb-81d1b3726f14"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dcomponents"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fb224428-c4cb-42ec-b400-b35cff98b87a"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c414f54-93fc-4e0e-84df-f875069734d1">
+                    <propertyInstance
+                      Id="4b72e5c7-8edc-46a2-9560-db4e5ef93b1b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2747f30f-f521-47bc-894f-8ec188580ebf">
+                    <propertyInstance
+                      Id="cc1e92f0-2157-42ab-864e-91341632f859"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d7b62b4-adbc-4e48-b11c-b767d910939a">
+                    <propertyInstance
+                      Id="f2e74d95-4a73-4eb5-a8ff-693fe6d5a6c7"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6d10d96-3702-4465-8ab4-df98fd758399">
+                    <propertyInstance
+                      Id="ad292144-3ac2-4b68-8d36-de1a83e52ea4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a307a312-d9a2-4388-85e7-ca9820079071">
+                    <propertyInstance
+                      Id="e1e351ce-ffa9-4495-bd79-cac58f074a8f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <interfaceMoniker
+                Id="85a89532-2d6b-46df-80a5-38eeb0091a07"
+                LastKnownName="IContainer"
+                LastKnownLocation="Package2_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="f4ea2226-81c9-4e2f-81ce-5f01e3b05531"
+            name="label1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="05fe55e0-eef9-483b-ac76-f980f7083de4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f1a00f66-5f5e-4215-9c4d-791192d252b0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32be7747-a3ec-4729-b37f-1abeace60358">
+                    <propertyInstance
+                      Id="38b60cde-080d-4eba-b08c-05b81967489b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fef28255-9f3f-4797-9ab2-9a7d9ddc7e02">
+                    <propertyInstance
+                      Id="d4bd4961-3b0f-4d24-9b47-4f194f9819c4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25a8dd6d-e954-48f9-b343-cdaad2d8fe69">
+                    <propertyInstance
+                      Id="e09575b1-ea7a-4df2-876f-7147ba38f0de"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d11187eb-0606-428e-9a24-65597cf5776b">
+                    <propertyInstance
+                      Id="19486772-6579-4805-badd-0d7123000a69"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="674575bc-3a4f-4063-b996-15b2a35285b1">
+                    <propertyInstance
+                      Id="d316d26b-c33c-49c1-a16f-e85a74fdc140"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="174fd247-7b04-47aa-a426-8962c49a27d3"
+            name="label2"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="95495400-b639-4cba-a461-43aa2a9ea784"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7adf9e7d-3863-4e0c-8e67-11e5c49742fe"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2de3760d-3b8c-4bc3-95cf-f8a97da0bcad">
+                    <propertyInstance
+                      Id="75af51a3-f749-46d7-938f-21804c6fe091"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1176a0e9-b5e3-4e20-8667-73fb45873424">
+                    <propertyInstance
+                      Id="e82ccc09-eb79-431f-bac4-adf93bac1451"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68b87f4f-efce-4cf2-a37f-ce115ccdd7c8">
+                    <propertyInstance
+                      Id="bcb035ef-081b-4e21-85ea-1d72546dcf36"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f3bbbb9-0227-442b-bd4d-edc1ae95fc2a">
+                    <propertyInstance
+                      Id="f049f0e7-9e7e-45a9-a7c1-faf525a6707c"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b45f4467-7e63-48c9-9c51-005fce377531">
+                    <propertyInstance
+                      Id="d8326ecc-dcf3-4142-b0c3-e077eade10f9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9cfa6f7e-185b-40d5-af7e-dd4dbabfabbb"
+            name="label3"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f5c72b0f-0039-4530-be3a-b3ae17cf7e10"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel3"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="206cb281-f2a2-43c6-afba-03e2fed1ee36"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09eea62e-6a2d-4881-9e12-486ef09a9c59">
+                    <propertyInstance
+                      Id="40162c4f-8fc6-4c81-a54b-72bec457e1bc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7855d2a0-2285-4e53-84d0-cf2b47e76dbd">
+                    <propertyInstance
+                      Id="76e8c6d8-3ceb-408a-bc1e-78b880f8b7fe"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="899c6e46-7b4b-492a-8325-eb9ccb098856">
+                    <propertyInstance
+                      Id="3c82b04c-a5f2-44d7-adb3-d66ea995a8cb"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d191120c-b738-4ef7-bacb-75c1840bfb1e">
+                    <propertyInstance
+                      Id="40e3fd3a-8091-4dce-a78e-1eea1fcd902d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d1d6bbe-3c57-45a2-af01-489a680372f9">
+                    <propertyInstance
+                      Id="24b6ba20-4e2e-49b8-aaea-c2e75503c0e5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="dd46ea97-ffde-4804-9a61-2b066b588a45"
+            name="label4"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="63d5c842-04a2-4c41-9489-7bf8d79f2589"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel4"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="abdb18e0-9f2d-4ebe-a5d0-f367c05f09dd"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="430d3154-5ebc-4ee6-8112-06ec6c85bf5f">
+                    <propertyInstance
+                      Id="1fedbc8d-23f7-4f8b-8215-7f33e76534ae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="92a76617-ddd8-43a3-be22-71af8a21c486">
+                    <propertyInstance
+                      Id="104bfb83-7ba2-4b67-949b-016a9f30db62"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e57625ca-3452-445b-b1e0-e7d1a337036f">
+                    <propertyInstance
+                      Id="8dfb75e4-6c24-4de8-89b6-94e67346e048"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e45e472-45d2-40a2-83e8-8992680a43fb">
+                    <propertyInstance
+                      Id="2a5737a5-ca43-4538-ab0c-35a53a218330"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a6d2b5a-2eb6-4a0d-9216-8bea08a526dd">
+                    <propertyInstance
+                      Id="2955910e-f57d-4bc9-a879-79666148bdc8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="19483630-954d-4504-9b6f-041050e48d63"
+            name="label5"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3430027f-1fd9-4e80-8c78-c023fd9be625"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel5"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="435b29fc-d760-41d6-9960-4e7b8661b0fa"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9bfe7067-316d-40cc-ae80-33c92c0c7ec3">
+                    <propertyInstance
+                      Id="499b28b8-da3e-4c91-8e98-36c10e8e650f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c25b9e4-dfb3-414b-8a1a-7cb117cd65f9">
+                    <propertyInstance
+                      Id="ae0c75f4-daa0-455d-b6de-a1c7f3796574"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ac3266e-5ef2-4a32-a8c1-a88f9e54fa99">
+                    <propertyInstance
+                      Id="3c7affc5-7221-4fd3-9165-464c55156c32"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f197000-e03a-4a8f-aeff-cb7784d555ec">
+                    <propertyInstance
+                      Id="4dacbf0e-dd64-419b-9753-143930433c8b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cb6126a-37b9-4d3c-92db-208f05ccf72d">
+                    <propertyInstance
+                      Id="317a49a3-f1dc-4729-8f95-a3305dba0aa1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="0942114b-5e1f-4a55-b3dd-3f2f5cce46c7"
+            name="label6"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c7367e06-e626-4463-8b2b-bd423aea5ba4"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel6"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="05b0f570-fbae-445c-9b6e-62d10685b893"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="32f8b4cd-ad24-48e4-9459-e9403f956e2f">
+                    <propertyInstance
+                      Id="20518f85-3915-4473-bf75-4600d35c9c62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a991ba0e-2473-417d-9907-44ed35c65f2c">
+                    <propertyInstance
+                      Id="06f269d3-f616-4db4-9b8b-ef2f01a5338b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea8feff5-b49c-46a3-8096-4afec225fff4">
+                    <propertyInstance
+                      Id="b3f29b79-cf2d-4c73-9502-32239b25e30d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9605f76e-33c4-41f4-9380-838f455aa00f">
+                    <propertyInstance
+                      Id="28b26c70-6383-4dfa-9950-c1492c857b50"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf71b432-3f4a-4c21-a514-7025fe684cc4">
+                    <propertyInstance
+                      Id="b11dd0a3-a30d-4103-b28e-7380928af49b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="a5960db5-53d5-4d4c-ae18-bb90cc7cde94"
+            name="label7"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="3b11806f-b83e-41f4-9702-569f4af07966"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel7"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="269fb6d4-ba8b-448e-8e0c-256c35cbab82"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="924ed112-16d9-42b6-8145-0098816c4857">
+                    <propertyInstance
+                      Id="1bd4b60b-5d95-4728-b2cc-b96a41dd6aca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca516078-5852-4be5-8bc3-f86fb5c19190">
+                    <propertyInstance
+                      Id="e90601c5-37ec-4269-837d-f8d85f99d02f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5c7a99ee-0ad5-4038-9019-175e668927b3">
+                    <propertyInstance
+                      Id="d04dbbf4-7a74-478e-859f-0b83625b2544"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e0a2440-4589-4606-8954-88c877d87dcb">
+                    <propertyInstance
+                      Id="6dab5052-922f-4059-827b-96c81ce64230"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1d7f903-42e0-42b0-b67a-c62e48d9d758">
+                    <propertyInstance
+                      Id="87c6515e-6a55-48ce-b367-629ce8c11fc1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9183c9f9-b76f-4638-a9b2-8be255d74ec1"
+            name="label8"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5829247a-b4ab-433f-ab9f-f56484e8da0f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel8"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fc4ac9e3-3f68-417d-abbf-998a3230a8da"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f9c0bbf5-bdad-418a-9bf5-0dfd97a4bcc8">
+                    <propertyInstance
+                      Id="0ac4ff7f-b13b-4f31-bb50-3b7170843c3d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ce34017-0a2a-4fe0-b140-b954531b0fdf">
+                    <propertyInstance
+                      Id="6d4da848-9ebf-44b2-b554-18edc77bde30"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d01bc62a-f6bb-4582-8e97-3c3db1212ab5">
+                    <propertyInstance
+                      Id="8e447b78-9106-4a6e-b323-b0d0aa055425"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="685efbbd-1ecf-4788-99e2-15794a5cfadb">
+                    <propertyInstance
+                      Id="db4b01d3-cbac-43bb-9d13-ef4a0de41b0e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3be1ac72-413c-411a-afb4-4ee66f626374">
+                    <propertyInstance
+                      Id="bd89420a-fa52-4eb2-b37a-771ae1dd852f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c0875be8-ac2a-4c3b-b84e-ce401127aba8"
+            name="label9"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c1409ab9-2a32-4bf8-abbb-50f1749476a3"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel9"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0d78d2d8-6b86-4e58-950d-8fce739f9eea"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="927d7d78-b2ce-46da-87b1-cae735b2a9f9">
+                    <propertyInstance
+                      Id="fa469e00-db10-49a3-8f5c-abd9b4cae10f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd3c8268-4e46-459c-aeac-984a65564c8a">
+                    <propertyInstance
+                      Id="1da42f02-1370-4d8d-a53d-51896abda695"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="df6df60d-76b7-4c05-846e-a82abcf6013d">
+                    <propertyInstance
+                      Id="5569b360-c10b-4600-89b5-a158b37aac6d"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0562974a-2fc8-43d4-96f6-12a46dfc7bca">
+                    <propertyInstance
+                      Id="ec90d0c3-de78-4863-b67d-e4ea675b7a2a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f30dadd8-15ff-4779-8ed1-338c454c76d2">
+                    <propertyInstance
+                      Id="141e0b2f-a9d7-477f-b844-79173e2ae3e4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9a3ca45c-d745-4992-aaf8-15fdc00c9422"
+            name="label10"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ccf4a451-ce72-4dff-9a72-4b9352751e96"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel10"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5c44dc2-879c-42dc-806f-d41e992b1021"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30ef5ac5-ab69-4dea-9259-3f1e8325e216">
+                    <propertyInstance
+                      Id="fd9c6d08-e290-4f72-b5fc-403b710b99cc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f133e86a-6ee6-436e-a379-49c9029c5b06">
+                    <propertyInstance
+                      Id="c688d6ac-01e8-4fe8-8c8c-a577677ee8c5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31a1fa96-8e99-488c-981a-5304453850b3">
+                    <propertyInstance
+                      Id="a2acd306-c589-474b-b9c8-bb89583bb454"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8d56978d-2204-43f5-942e-d5dfa12e1e91">
+                    <propertyInstance
+                      Id="473534b2-9b90-4ba3-ac42-33c6c43f4591"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4b420233-d0a7-499d-add2-3f10e080bd84">
+                    <propertyInstance
+                      Id="a307edf5-0527-4d70-9e73-6c820538fb85"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="34759384-66a3-4d4e-8ae1-fa65b394e0e1"
+            name="label1Aantal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="291e45a2-51b9-44cf-8f61-bff25fff042f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel1Aantal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8acac943-2dca-4de9-b197-2ea2ccf5b4e4"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8be78e41-8360-4374-8455-39285bbe31d0">
+                    <propertyInstance
+                      Id="ebb30b82-cbcf-4d2e-b02a-11f44ba4736f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e0d0b79-120d-45df-bf5a-8b339155e485">
+                    <propertyInstance
+                      Id="4dc240db-caa1-4782-9dee-aded943ba2f5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c79c101-a176-4026-9a22-353873748840">
+                    <propertyInstance
+                      Id="424d8472-59bc-476c-89cd-55dd9a673024"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4164388d-f8e3-4640-8d18-65f72de6d9dc">
+                    <propertyInstance
+                      Id="7b013e74-a2c7-4a7b-adb9-a602245435fd"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c7920c52-203a-4ad6-9a43-ab7c6e34cb1c">
+                    <propertyInstance
+                      Id="65ecb76d-f721-4762-9aa0-5f44b08a24b2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1fd4ac8f-ae22-464d-86cc-13866ee487ef"
+            name="label2Aantal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b95a37e1-1d0d-4b9d-b19f-887793a2b312"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel2Aantal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5cad3ea0-a7a1-4916-9b7c-0848be36f141"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81cde5fc-35d9-4c04-849a-bba251bbbe70">
+                    <propertyInstance
+                      Id="37a8828b-f0ca-49dd-a891-d76ec24fe246"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2461b2c1-935f-4d33-9c88-92290dc3f889">
+                    <propertyInstance
+                      Id="b14ce650-e416-4036-b13d-a26d3e454fb4"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f593caf0-300e-4d43-9a83-fb4615ee073d">
+                    <propertyInstance
+                      Id="dacbdf56-1cd1-4b71-aa92-76301b28e893"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1d644030-b1d0-4af8-ab9a-700253fa9fb7">
+                    <propertyInstance
+                      Id="f46e0577-3ac7-4016-ba1b-937a12a8fb9b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="905dc0ca-7b56-4509-8079-dc6def6dd6bd">
+                    <propertyInstance
+                      Id="e0f948c6-2d22-4ee7-9655-b20ca891f77c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c791a55a-cc16-4184-b5fc-4affb0befc4e"
+            name="label3Aantal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0fb953cd-4008-4246-8cfb-9b56ab4b450d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel3Aantal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="38cbefc5-05d7-4a4f-b44a-5a743359a6f0"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17a986bd-be8c-49c6-b2ea-a1e9cb9d6019">
+                    <propertyInstance
+                      Id="88e347a6-6f5a-4245-b739-333f304b59c0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14c3e9f0-d4c1-4b4a-b4a3-840f76fc56be">
+                    <propertyInstance
+                      Id="b40acdd8-328f-41e2-8a50-af6e189009b7"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="432a68ef-af4d-4461-9b67-a054a43c1776">
+                    <propertyInstance
+                      Id="60f5efe9-611b-4fa6-b487-b2734b3bf393"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbb0693e-3175-477a-bb51-01cf2ce4c164">
+                    <propertyInstance
+                      Id="56e95e4d-d406-4ee5-b821-fc8732e7e7b2"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="148d23f9-8607-40c6-a582-8422c47485a5">
+                    <propertyInstance
+                      Id="c4b8ee4b-ee6d-4916-bcbc-f8d894c62386"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="27f29946-6aa1-41fa-8660-5d96ea7ebff4"
+            name="label4Aantal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f467e0b2-432e-4c46-a07b-0069556b30fb"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel4Aantal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6895ce19-ca40-4c67-809d-511070148d72"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80bba3cf-18e9-487c-ae4a-68f263d68e43">
+                    <propertyInstance
+                      Id="d1410c4c-3966-457f-b382-893c0557e611"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="431607ed-cbbd-470d-afd2-6edf502bb8e5">
+                    <propertyInstance
+                      Id="ebbb4415-0481-49b5-bfca-620ca6d9b81a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93828a15-7db3-4059-82d9-0426dbf170a7">
+                    <propertyInstance
+                      Id="8cca9992-636a-4773-9746-b6f27b1f6375"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb52202d-5a49-47b6-9443-38938abe4ca3">
+                    <propertyInstance
+                      Id="aae5eb8d-0e11-48a0-8117-02a7fe9fbab8"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f684677-2f70-4973-a0d1-e53fccce7d2b">
+                    <propertyInstance
+                      Id="f7293f5e-374c-4353-8953-750b6a7a99a1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7a5de16c-1d37-45f9-9430-cfb4a60a65c0"
+            name="label5Aantal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f3e74615-9901-40b3-a416-7c72a15efa61"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel5Aantal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2e9059cc-e31e-47ca-bb66-ff3efd3d560c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b19fe0bf-e71b-4897-b230-574c3e1f823b">
+                    <propertyInstance
+                      Id="524c0b44-dca3-4493-830c-4ca8be170620"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ffe83e9-ac36-44de-938b-2cec4352a02d">
+                    <propertyInstance
+                      Id="728fb13e-13af-4b06-9434-0065cde65c7f"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="64836631-0f29-4ed9-9f2e-f7e1957f54f2">
+                    <propertyInstance
+                      Id="6f3de59d-cd68-4240-b025-16d7a8ecf394"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="311c68d5-6100-46f6-896e-88dbe5f13d3e">
+                    <propertyInstance
+                      Id="4301ed5a-8f2a-461d-a2b5-a2d0c657b35d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec0eca73-92a5-4661-9d99-5b36ef47956a">
+                    <propertyInstance
+                      Id="0c788db3-4854-4252-8bec-e1e7e0879089"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7f849659-60b9-4448-a1db-c74c1b55c6fe"
+            name="label6Aantal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="8677d047-b7f3-4379-bc81-8fc0c5524d38"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel6Aantal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="18593466-0aba-4054-99fd-97120954f7ef"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce0c5304-eabb-4c20-bc39-c06a728b1813">
+                    <propertyInstance
+                      Id="20533634-41e4-4d84-9394-c19cc8f17cd6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7522b8e-601a-4002-bdf7-2975eba271df">
+                    <propertyInstance
+                      Id="a555ff21-dca1-4e91-9460-34cc06c617cc"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98a85573-ca58-4a72-9ea4-a3c70145ebbc">
+                    <propertyInstance
+                      Id="73f21320-655b-4a91-a2a7-7aed231ac4a1"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="656309ee-448f-413c-9915-83a6327b7990">
+                    <propertyInstance
+                      Id="cd83f9b5-cec9-4699-8ee5-8c71063a72a4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="595e3ea2-580a-48ba-9f52-3c9ce5a3e8e4">
+                    <propertyInstance
+                      Id="6df369e2-ce7b-4c48-9e0c-67befd097df0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b1650d00-434f-4c12-ad6d-04840f9958a7"
+            name="label7Aantal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="5f7cd8f4-81fe-46f1-8e85-4da6c55ba9b2"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel7Aantal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="923bf2d2-fce6-497b-9ff0-762342c2d5b6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdb10ede-56ef-43c9-8fed-7009992afda6">
+                    <propertyInstance
+                      Id="471c4d6f-2130-4269-a59d-5b10a95930bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f55b055-18bf-4675-9042-c7667cf22fcf">
+                    <propertyInstance
+                      Id="1e0ec071-6c4d-4afd-bdcb-791062f401c0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0da8fd0-66ec-4a05-9372-a07534f0ff8a">
+                    <propertyInstance
+                      Id="946cb559-f1b7-42cc-bab5-c0780fa34e81"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e7a680c-1ddb-4441-8c38-984d10b15761">
+                    <propertyInstance
+                      Id="85157c18-b92f-46e4-b572-b0b41ba5cdf6"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45b1b80c-5c53-4d54-958b-8e669cef4f73">
+                    <propertyInstance
+                      Id="3a7f3ccd-a7de-4cc9-af8f-8bb8cb3b113b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d4bf924a-c58c-4884-bf09-a23382492a60"
+            name="label10Aantal"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f57bbce2-d626-4b7c-a3c6-967f878ed72a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3Dlabel10Aantal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ee030022-9508-4d68-8375-0cfa2699f03b"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd87c928-8ab8-49d3-80c9-b27490c2c7fe">
+                    <propertyInstance
+                      Id="2135aa67-4888-4a98-aac8-80350929c875"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fa12a0d3-bf2f-4ec8-9d6b-88fa6b98db00">
+                    <propertyInstance
+                      Id="146491d3-f4ba-4051-9d3b-754c5ccef026"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf12f35f-1181-4413-b48b-86b37aca2af1">
+                    <propertyInstance
+                      Id="028b9c0e-43e7-4295-9936-dfbda1817c0b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="660cda68-fbd8-43d9-8672-d3a493fffe00">
+                    <propertyInstance
+                      Id="3901e02f-710a-4726-9bf7-06be79d64c1b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dad1f4fe-8044-4668-9b12-3a8ebfb22715">
+                    <propertyInstance
+                      Id="6ace6697-904c-4c31-a74a-440add758c27"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="bdb85793-1b71-4d9c-8727-ac2f6fa3485e"
+                LastKnownName="Label"
+                LastKnownLocation="Package1_1225.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="5b5bd32e-8a5f-4cc8-b117-10252d58cd5d"
+            name="Hoofdscherm"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="06054f49-73f1-47ef-b208-06ce6776ae0e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b4df414b-864b-4e13-8cd0-69fdd9b067c3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94a63599-7077-41ab-999b-fff58f2408a8">
+                    <propertyInstance
+                      Id="dc886a6f-2feb-4b69-96aa-688b7e80c441"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4fc7f23d-dbd9-425d-93ff-9a36bbbf4131">
+                    <propertyInstance
+                      Id="c10125ee-f634-45b2-b3ef-a01a4f9ba2b4"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0da7de7-7823-4ede-b1a3-633ddc040068">
+                    <propertyInstance
+                      Id="4e96c273-4ed0-49cc-b1c6-85a22192d0ef"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c365de3b-3328-40d1-8487-8e508cf86d3a">
+                    <propertyInstance
+                      Id="087786b4-f3ec-4948-bab8-402b99560912"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5c8a1c3-0f42-41ef-b710-926a835781b9">
+                    <propertyInstance
+                      Id="074321f6-5f54-4d43-ba1d-73d2f27f4851"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d685e21-970d-44f9-8a85-79b416f2560b">
+                    <propertyInstance
+                      Id="6aba1b6c-e702-4492-901b-083d816f32cd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c70c5414-02fd-470a-82b6-5200c08ec614"
+                  name="personen"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ccdd2222-1f64-4ccd-8037-6764de5c52a4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dpersonen"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="771cc3e6-48b3-4e16-80a1-da87f33586f1"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="768d33e6-4bf4-4ccd-9bad-8840bd55acd9"
+            name="regelInhoudVeldenMetNamen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6e7255ee-82cc-466a-ae13-9ddb03a96c9f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DregelInhoudVeldenMetNamen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6cb64174-b989-44b6-b372-1c2273069e66"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a476dab-10d7-47e6-b571-d71c1d3fb1b5">
+                    <propertyInstance
+                      Id="1930d847-8ee1-4f73-9701-a984902d1dc0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38ed1fa9-aae5-446a-bf2e-0a7e1e9ca7fc">
+                    <propertyInstance
+                      Id="877d6409-d870-4a02-8d70-c2150beea640"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d117942d-79fa-4760-aec1-b51e427e5bd1">
+                    <propertyInstance
+                      Id="22ef7969-86c5-4115-8a5b-d3981ad17b32"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="949afa72-e4d4-435c-8c98-865f21f1b081">
+                    <propertyInstance
+                      Id="a74fac34-f9f9-447e-8c8b-afb00922ee3b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="390cb83e-f57b-4fff-afb8-2a3444b702a5">
+                    <propertyInstance
+                      Id="12c67a1d-7fb0-4370-92ca-b7bd683677d5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fdd33583-89c6-45fe-9e50-ea036e4d8a74">
+                    <propertyInstance
+                      Id="5996651a-2f56-48bb-bcb7-4c0e79f45549"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="78f8730d-4032-4367-b739-8d664804d2d6"
+                  name="personen"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8474ca2b-4137-496a-a514-5da37272aca8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DregelInhoudVeldenMetNamen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dpersonen"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="771cc3e6-48b3-4e16-80a1-da87f33586f1"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d3d8df0c-e39f-4c85-bc69-1fd959298e2c"
+            name="regelInhoudVeldenMetNamen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="147944cd-a9a1-4cd7-90a5-7886ad6530c7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DregelInhoudVeldenMetNamen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e499c11a-0d38-4723-a060-63e5033021cb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ae30a4e-0c18-4914-81d0-0f1b8d9254ad">
+                    <propertyInstance
+                      Id="6f876285-fcc2-44c4-9f55-cdb4a54e0d7f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1f9a64f8-5c77-4fc2-b344-4a2c99d7b7f7">
+                    <propertyInstance
+                      Id="368bdccb-0278-4dbd-8dbe-e56f09d2fd2d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03317a70-a3af-4935-a96d-b091e9a434ae">
+                    <propertyInstance
+                      Id="99969d7a-b22a-4fab-a9a1-6a6bfeee3c64"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c64d9e61-c62b-44b0-aa34-e4a6c354eb2a">
+                    <propertyInstance
+                      Id="90a5f007-ea38-4990-b873-0f166fbd0a3d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a76e5f1-8ac1-425a-b853-8edc734efc00">
+                    <propertyInstance
+                      Id="55929df6-dae1-47be-b424-226e09183dc9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="553c4b4e-d238-4e40-bb06-bee7a071feb9">
+                    <propertyInstance
+                      Id="d24b3400-bf81-4c25-92c0-8420fee1c53a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7bc2950a-aa02-4f03-bc37-102e1545a3d8"
+                  name="personen"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d88b3a16-2bd5-473c-bb30-a9a85d00c94b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DregelInhoudVeldenMetNamen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dpersonen"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="771cc3e6-48b3-4e16-80a1-da87f33586f1"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e73e9b95-83a0-4b11-8760-1f2ff9f98b6a"
+                  name="statusVerandering"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1329ae01-8e50-49f0-91ab-c3c2ad479a77"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DregelInhoudVeldenMetNamen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DstatusVerandering"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7a49bdc4-3323-46c4-b95c-4fb852d0475f"
+            name="LabelsEindelijkVullenMetNaam"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e8a65013-d2b7-41c3-b719-69b338566dc4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DLabelsEindelijkVullenMetNaam OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e4ee4995-a431-4c6b-a090-701758fa60dd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d11cbb5-bff0-4f82-9c00-165ea9f6072c">
+                    <propertyInstance
+                      Id="0806f730-87d3-4ec0-8e0d-1d208f2f6a6d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99c66b9f-b852-4248-a059-b66ad3b722a3">
+                    <propertyInstance
+                      Id="72583c90-c6e0-46cf-89f7-d0d32a37d689"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="485c54d1-496f-4e67-a3a5-8d8ac6ff82ed">
+                    <propertyInstance
+                      Id="9973a038-7b61-40e6-b362-cdaf781be036"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9e62b9f-2a76-4202-aa45-7fd426a23c81">
+                    <propertyInstance
+                      Id="6333f7a2-9b20-4517-9a18-742d7a8e8b14"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97d44b42-31c8-4ded-b73b-6e825a72747e">
+                    <propertyInstance
+                      Id="55d219dd-9465-4080-b63e-ab976ff480ff"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1634e931-ecbd-4114-9240-cca78d55c0e3">
+                    <propertyInstance
+                      Id="6af132fd-1f98-454e-b076-33c6333a1eb7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="091bd217-9ef7-48a8-87a5-9b9f3a4cfb48"
+                  name="goedGevuldeList"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="eba72332-1df5-4ffb-addd-7eccf94c4166"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DLabelsEindelijkVullenMetNaam OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DgoedGevuldeList"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="771cc3e6-48b3-4e16-80a1-da87f33586f1"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="72d08e10-62a6-48b1-bb61-d4efc83f2fff"
+            name="maakListLabelsNamen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="535c1195-e21c-434a-9e07-373880154e8c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DmaakListLabelsNamen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3811b669-1d4b-4b0f-90ae-42e1bba5fa02"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d07d63d2-b8db-405d-8c6c-5a5b43f50cf2">
+                    <propertyInstance
+                      Id="ad9cf34f-06c0-4843-8dc5-8f3ea8119e9b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e1c449a6-7114-41e7-9619-349abeded8ea">
+                    <propertyInstance
+                      Id="0c875fe2-cf38-4687-a360-27dc58220599"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91824780-0da3-4b97-8103-cc4211d72838">
+                    <propertyInstance
+                      Id="d3dd744a-5636-4af5-8557-18302000dcc2"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6addfd1a-2237-4bc9-8114-759f6efa5cb1">
+                    <propertyInstance
+                      Id="b8cee488-d532-447d-b384-dda922d8db05"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8591c352-7043-4b86-9ed8-6a3dac076b5d">
+                    <propertyInstance
+                      Id="30f5e2c5-558b-4d20-8f7a-ed53ad6b2dd0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbdce9f9-a2f5-469f-8adb-da39f56b8825">
+                    <propertyInstance
+                      Id="9f43c22b-dccd-4b43-94c6-51cf0743d5a3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b50d57b7-fec3-4b26-86cd-9aa84cc41948"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5d385cab-b696-4bd8-8dc0-ef59efe01140"
+                      LastKnownName="List&lt;Label‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7691c5fd-4a7a-48c5-83dd-f57fa193ae5e"
+                  name="personen"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c6c6ae0b-0ef3-4e43-bbcf-b24bea91101f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DmaakListLabelsNamen OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dpersonen"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="771cc3e6-48b3-4e16-80a1-da87f33586f1"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="06d84669-488c-4aed-a26f-f0fc0b92ef6e"
+            name="regelOpmaakForm"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4fb6d126-60c4-4489-8373-f076d45be80f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DregelOpmaakForm OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5329f23c-a9b2-4419-8161-fe00d1740cbb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d383ef6-85b6-4d85-a757-4ad1e8476974">
+                    <propertyInstance
+                      Id="1d36c3fe-b5d0-4168-8b15-cdb90df69719"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e28ca08f-2885-463c-906e-5a8387ec7319">
+                    <propertyInstance
+                      Id="42fe0761-e331-45d5-ad95-cf9dbf471f24"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40a63e8d-0e92-4f1a-959e-12a6fa7b8256">
+                    <propertyInstance
+                      Id="bc9fcb17-17c6-4578-b934-a63663a1e9ec"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c5c2a78-cce6-4f3f-b75b-b71f1e3af2c4">
+                    <propertyInstance
+                      Id="423a14ba-e19f-43e3-bbd8-318bfc04e0f9"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d7ccec5e-35f1-4d1e-8c5c-80789e8c6901">
+                    <propertyInstance
+                      Id="dbdb81a6-2acf-49b3-a3b7-82fcb2c87c3a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd1c8d0f-5293-486d-9baa-d9957d919a55">
+                    <propertyInstance
+                      Id="dd96cfb6-3922-47b8-9fbf-34f500881cc7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0c606e5f-c745-4e4b-9a20-1641044c8026"
+                  name="personen"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2334a479-8059-4d9d-8e9d-09abb8cc70ef"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DregelOpmaakForm OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dpersonen"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="771cc3e6-48b3-4e16-80a1-da87f33586f1"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="41f79c4a-8c79-47ef-8aa1-cb10db094dec"
+            name="plaatsenLabels"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7d995d8e-0570-4a12-a5a3-6d462a592f00"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DplaatsenLabels OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b385b903-a249-4b88-8b4d-d38986ca1fa1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ebeff1b-f78e-40c1-bab2-d09163c7ad66">
+                    <propertyInstance
+                      Id="aa96db03-495c-4289-b2b7-623061a2d991"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e0a4a93-93d2-41ab-85b4-fa1a12a411bd">
+                    <propertyInstance
+                      Id="7a74f76a-892b-4e20-a937-efb636c41f91"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f3a23f7f-f234-4350-bdaf-31f1fb008d18">
+                    <propertyInstance
+                      Id="c44b6633-c5cb-4eba-b642-cc282ce80426"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e64f9e9f-8201-4447-94bc-8c5a528924e0">
+                    <propertyInstance
+                      Id="0f062446-3609-4b89-a655-8006386ada64"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="846e8e59-a627-4c7e-8dbd-31e9d44a93a5">
+                    <propertyInstance
+                      Id="151b24e2-dc6a-40da-8acf-aba7102fcbaa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f585c671-084d-4456-96ab-980505ce883f">
+                    <propertyInstance
+                      Id="e3f003f6-8b36-4d0a-8bed-385e0ebfb802"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8d3cbe59-4798-4a65-a84a-dffe14d0c5bb"
+                  name="locaties"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="61002d86-5e95-4eba-9035-2dbe408d06da"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DplaatsenLabels OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3Dlocaties"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c928c28c-6578-430b-bb11-74432fdc1306"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6ad273ed-8740-429f-a8f0-eac9311888df"
+            name="maakListLabels"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3d4b7a30-23e6-4dac-9c9c-ac23397f5a2b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DmaakListLabels"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a2eb219e-f247-4224-8815-32dd67d91bb2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67dc2ffe-e458-4309-b15b-38a953d99e24">
+                    <propertyInstance
+                      Id="6fb1bde0-06c7-4ee2-9ac1-92707e066931"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b331610e-959d-4ccf-b810-f02eae6943b6">
+                    <propertyInstance
+                      Id="584be3c8-4e5f-4969-8ec5-f49d9761c1b0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4dcdbae6-e36b-4a5f-af8e-f87759018e0c">
+                    <propertyInstance
+                      Id="c8dc4cfc-c142-4fdb-b68b-f8f5ce116463"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e23ad88-14c7-49bc-b368-ae7ab51f72a2">
+                    <propertyInstance
+                      Id="ae98b7c8-a3cd-452e-940a-c63960ecae46"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28df1d22-93dc-46f8-b57d-89a03358dc9c">
+                    <propertyInstance
+                      Id="febfde6d-3a6a-48cb-9f72-69250ccd0257"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c100b92f-cfb7-4f88-8ee1-0f6bea2d1185">
+                    <propertyInstance
+                      Id="69d161c6-9f1a-4f6b-a76f-a5286babd172"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="301fbb23-f732-481c-85b3-30b3113fdf59"
+            name="uitlezenVeldenScherm"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9d4bf3b3-09a3-4efa-ad08-fde85d75ec2c"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DuitlezenVeldenScherm OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c20128a9-1cfb-49d5-af0e-78156996822f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8ec5fc5-d078-4edb-8612-1617fc62a8be">
+                    <propertyInstance
+                      Id="e9085b8f-5738-4f6d-9aa8-35647c0df5af"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe34a794-29c4-4236-b44a-da25491f0403">
+                    <propertyInstance
+                      Id="d3a210e5-0ba7-4ead-9e0b-ea57019d6652"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aad2b9ca-cd8f-43d6-a537-575d17f6a645">
+                    <propertyInstance
+                      Id="aad5a79d-f019-4d50-af7d-4ef0350f9b1c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50f5ddb7-f5a9-4b82-9a40-4a6423b586af">
+                    <propertyInstance
+                      Id="ae391106-7d01-4826-ac29-f2b607d75b6a"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9fb268bf-186a-457c-912f-b90d36824f10">
+                    <propertyInstance
+                      Id="94b9c23d-ed50-45d9-859a-cc09247936b3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40ad2d97-7288-4123-93b6-80d5e192776d">
+                    <propertyInstance
+                      Id="39afebc7-3db1-457d-9a9e-664bbea8fcbb"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1fecc02e-b084-473f-bfa2-a3a1aff30782"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c928c28c-6578-430b-bb11-74432fdc1306"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9fbb4a1f-407d-4025-836e-8895c0e95f98"
+                  name="personen"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="018b871e-b543-4c5a-be52-cf2655b3570f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DuitlezenVeldenScherm OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3Dpersonen"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="771cc3e6-48b3-4e16-80a1-da87f33586f1"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="79c9afc1-0c31-4db7-af73-6a75cb0caad5"
+            name="lezerVoorLocatie"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f4ce0c65-c9cc-41e7-afb9-196abc79751b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DlezerVoorLocatie OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="06e83e65-2f91-4be5-b5db-6cda7a7603fe"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21ac6144-458f-49e4-a869-88d922723b5f">
+                    <propertyInstance
+                      Id="1cb74901-9484-421f-848f-4aea55d24938"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78dfaf12-1d7f-49b2-b23a-7e9e06272e1b">
+                    <propertyInstance
+                      Id="cc206cdd-6844-4c92-950f-35ef23b2a59d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="55503932-4021-4e76-bcb9-87049c93baa8">
+                    <propertyInstance
+                      Id="1cbc6ee0-3478-4cc7-98a4-938aed14c1ca"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3af23009-8494-42bb-9cbb-3a9982697d19">
+                    <propertyInstance
+                      Id="f7643c65-226d-4ee6-98cf-1935e5a54957"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51e2ea4c-2fb0-4f9e-a828-d01db074488d">
+                    <propertyInstance
+                      Id="ad25ce5f-1769-4a36-82f5-a05ece15dbf3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a09b93ec-3b68-4444-8d0c-59ec4f4610a6">
+                    <propertyInstance
+                      Id="9912788c-a13d-43ea-bba6-63f391dec499"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="15e3a6a1-5f2b-491e-ac07-5af083845d1c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c928c28c-6578-430b-bb11-74432fdc1306"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fed37e83-3ddb-4cdb-9bf2-8d477e9cf6f0"
+                  name="locatie"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="28762f54-90f7-4b74-a11e-67b009201bba"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DlezerVoorLocatie OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dlocatie"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9f16f3b9-87dd-45d7-97e3-143a835610bc"
+            name="ProcessCmdKey"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="239bf7ed-71b9-4964-bee1-f0254b6f2529"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DProcessCmdKey OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMessage ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DKeys)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="db5d2d16-e22e-49cb-92c7-4129f75790fe"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acdd9df4-485d-4711-917a-adfdb4e82a92">
+                    <propertyInstance
+                      Id="38331107-f0a5-4afc-995e-c757fbffae92"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ccac77ff-9f4f-4ce5-92d6-aaaaa4d7024d">
+                    <propertyInstance
+                      Id="cb3f2b3e-9ac4-4f48-9ae8-7c473dc28c39"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e97dfbab-b1ae-4296-8c0c-add78e56c7f0">
+                    <propertyInstance
+                      Id="22daf4b3-face-42c8-b66d-a1dce8f28c80"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf901a2d-92b7-4bde-a0c4-dd7ac84426d7">
+                    <propertyInstance
+                      Id="7f5264f6-8ff8-4c42-8dbc-1ce53ae17aec"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eca1a810-b875-43ef-860e-27b85dfc16dd">
+                    <propertyInstance
+                      Id="40c4ddb6-3827-4969-b9ba-93095d1cadfc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22ac3a8d-8f07-4a1a-b215-2143b58f86b5">
+                    <propertyInstance
+                      Id="e3024b46-d987-4746-b4ec-1184fd5cd570"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="da546975-c615-41de-8429-d51927649941"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="922beec7-bd92-4ff6-9451-2bb8674a78a6"
+                  name="msg"
+                  direction="InOut">
+                  <referencesInternal>
+                    <reference
+                      Id="24198c9a-9887-4893-a68f-60f57eae8c40"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DProcessCmdKey OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMessage ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DKeys)]) ParameterIdentifier%3Dmsg"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="8c67fe80-1784-449e-914b-c8bfd32bc09f"
+                      LastKnownName="Message"
+                      LastKnownLocation="Package1_1225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c15ce23f-056f-4c86-9b0e-03977eaf266c"
+                  name="keyData"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d042381b-de12-4d06-b901-fec6d7b413c8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DProcessCmdKey OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DMessage ParamKind%3DRef)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DKeys)]) ParameterIdentifier%3DkeyData"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <enumerationMoniker
+                      Id="843764d3-46e0-42fd-bf35-c51cd3c6e234"
+                      LastKnownName="Keys"
+                      LastKnownLocation="Package1_1225.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="67440aeb-ff85-415d-9d85-716def61dc7d"
+            name="invoerKey6"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d757e5dd-8a3d-4d92-9776-80459b241c28"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DinvoerKey6"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5a449ce9-f1aa-4f1a-8f92-8159d81e893d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b1885469-9bc1-4098-8f77-ca1f02f3f713">
+                    <propertyInstance
+                      Id="7da81999-7f58-400f-96db-6be3ee0b9db4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="56c83f51-0fb5-484b-84c2-b7994bbf0415">
+                    <propertyInstance
+                      Id="353e33a2-4309-41c5-a1b2-59faa2337932"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9f6ced7e-4d06-44af-a086-efd666c95efd">
+                    <propertyInstance
+                      Id="b729b098-defb-417b-b0f7-ebd9adb77ce4"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51827bcb-abdb-4759-82e2-d62f8b061834">
+                    <propertyInstance
+                      Id="6027857d-fc8c-469f-9f30-2200b927b5f6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb6d2f86-c09c-44ed-8964-ef8f05bf0934">
+                    <propertyInstance
+                      Id="2f467538-631b-43d8-a397-6390970894cc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0636286-f7d1-44cf-9a0c-b336e71785a6">
+                    <propertyInstance
+                      Id="236a0b62-f7ac-4da2-9c47-91d3289a57bd"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="f4392218-0af1-4558-80c3-32344468e862"
+            name="invoerKey7"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="688a9647-e8ea-46a8-b5af-c47488d3042a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DinvoerKey7"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dcc7da9e-a75e-4842-8303-5ebb609ce8c3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40731e0d-a0e8-473c-96b9-ef60f5091a8a">
+                    <propertyInstance
+                      Id="8ce2307a-54d9-49f0-a6a8-823590e696a6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2cb391ab-09e6-476a-a658-d3107bb6d38a">
+                    <propertyInstance
+                      Id="1d99a552-874e-41f6-9520-d4fce1ed3b07"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="163c58c7-12f7-4074-a5f8-b17ceadea6e7">
+                    <propertyInstance
+                      Id="920ba091-6f67-4025-95a5-eee6c60e4514"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a750b19-40ed-41ba-af26-666e7ec17913">
+                    <propertyInstance
+                      Id="470c3fe5-ad80-49ab-85df-120d5477f338"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5921f287-90d9-4e88-a6c4-9804acad5d54">
+                    <propertyInstance
+                      Id="53edd42e-60a0-4af6-b17b-954f5c930c40"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b84e26dd-121a-4ac7-87a0-2ff3004de4ed">
+                    <propertyInstance
+                      Id="96057ef2-ce80-4399-bd36-8e78e4468504"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="b16620f8-e800-4738-a798-ed141f235bd3"
+            name="invoerKey8"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5b2fa9ae-e58a-47cb-a471-43af4a81cf55"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DinvoerKey8"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d874beae-f599-42b1-8c5c-de36d7166dd1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4187164c-585d-40d8-8f17-5ff797c50c8c">
+                    <propertyInstance
+                      Id="26969083-aa39-43ef-b48a-0330609cbcb9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9fd9de1-5767-4abd-92a2-eeffdf99bca3">
+                    <propertyInstance
+                      Id="d5e51467-773a-4dbd-985f-52662178083b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ad53e9a-f3f9-4f7e-958c-607436317e04">
+                    <propertyInstance
+                      Id="247ca41e-d073-418b-95f0-fcc387b7774a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="299208a4-bce0-4ab7-a8e0-20659010c3ab">
+                    <propertyInstance
+                      Id="ddd1e18d-f1d2-4b94-8d4e-d0daf1d24c4c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63a5f841-e43a-4418-80f1-64a88e58c802">
+                    <propertyInstance
+                      Id="5dbe533e-abf2-4e03-9d76-762b7fccdaf4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bb26e584-7bdb-459a-a491-a6be8215a469">
+                    <propertyInstance
+                      Id="db08852a-473d-44f3-95ff-061f08a16897"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="56def32f-9ec5-4e99-9481-ee8198e94063"
+            name="invoerKey9"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="7855ce3b-99db-443d-9015-ce97198ab7fc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DinvoerKey9"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e72ff053-15af-46ea-8684-dd324f30876e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33369e1b-e897-4ec1-8d9b-b5b0c7b8a2ff">
+                    <propertyInstance
+                      Id="f558ff60-370b-4b93-80e3-e340b6aedfad"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cab2af32-5d10-4be5-8d29-94170eb68540">
+                    <propertyInstance
+                      Id="9f654d9a-bcda-42df-82be-0b6d5c804ef8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b941e39-3b1c-4509-a1d6-0d4e3be98f47">
+                    <propertyInstance
+                      Id="2b14136d-c1aa-4520-b670-0bcd68eed070"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8f97d5bd-f6dc-4bb1-81d3-b13b1e948d3a">
+                    <propertyInstance
+                      Id="df03d288-09c4-4751-8fc3-4f150c6f6200"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbd2fe6d-a0ed-4f13-b087-12bbb8d6b579">
+                    <propertyInstance
+                      Id="5082838c-d667-4042-8350-19c42048a9be"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66576f13-fb43-4c7d-bad9-aca4e75ea274">
+                    <propertyInstance
+                      Id="69106c7f-5c07-46b9-9464-67cccc68abd4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="479287a5-ca7d-402c-96f2-2d4785d1a13e"
+            name="regelInhoudAantallen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="472bc0a9-a815-4ff7-b072-76774cddee4b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DregelInhoudAantallen"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d20dc2c3-3b64-4ec5-ad20-5732083ca35e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b66d3159-6d10-4721-b718-ec33bc10b38f">
+                    <propertyInstance
+                      Id="c3470f22-3e77-4cb5-b7be-8beb75c55ad9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c06fce6d-b490-4fcf-81b6-2146c2e877aa">
+                    <propertyInstance
+                      Id="dbee4724-e1ed-475a-a39a-56dec2c7cb61"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aaaa81a1-2b8b-4ca9-b5c9-fbfc47806c36">
+                    <propertyInstance
+                      Id="46b1865e-7f39-46dc-89c6-949d799357ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5bdd79e9-be97-4a70-8868-a10e05d8bca1">
+                    <propertyInstance
+                      Id="531504ad-5af2-4fee-8cc2-0c75fbdd7842"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fc0dc30-8a86-4f5e-8107-53564bfb6151">
+                    <propertyInstance
+                      Id="55dd1ce1-a5e7-4062-aa02-961f658f3f20"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ada7eb13-2b2d-4818-9dc9-697b632f075d">
+                    <propertyInstance
+                      Id="5874be39-2ac5-46d6-8895-0196cba2cbe7"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="c00b273d-7d9c-41da-b537-f1615f547d1c"
+            name="LabelsEindelijkVullenMetHoeveelheid"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3595122f-5727-4f12-8c8d-db510c255d44"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DLabelsEindelijkVullenMetHoeveelheid OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e129501d-9d9f-4287-8ec7-9bb587698f49"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b75abfc8-aecc-41bd-b487-5981fd5accee">
+                    <propertyInstance
+                      Id="05ceedae-f01e-4d8a-a73b-088a32c4233e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0d47fb2-d8ae-43ba-9d14-e47eaedbd161">
+                    <propertyInstance
+                      Id="4b0b0167-99ef-428c-962d-c2dd209d5346"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b6f21247-dd99-411d-8bdd-2c2ae3343278">
+                    <propertyInstance
+                      Id="fe10bbf3-255b-407c-926c-36f2544706d5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e9888bd-52fe-4329-a481-ce115b97babe">
+                    <propertyInstance
+                      Id="6da500e6-fbb9-44bb-bc62-c1aa288b4450"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f49c1872-ac5e-4b88-b224-59563b32d216">
+                    <propertyInstance
+                      Id="1ee4ad37-68c5-4456-8f83-7fa571a25406"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="31954297-d9e3-4448-8ff9-a25ea197d9a7">
+                    <propertyInstance
+                      Id="4d187d77-15ce-4913-90f5-f85cbba9a7b4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="34c500e6-8854-43c4-9b9b-9c7ff32eed63"
+                  name="goedGevuldeList"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="76bb14b5-532c-45d3-b012-253d31d0e406"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DLabelsEindelijkVullenMetHoeveelheid OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3DgoedGevuldeList"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c928c28c-6578-430b-bb11-74432fdc1306"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="72fced7a-f3cc-4ea7-9070-9acc5b6fcc06"
+            name="maakListLabelsMetAantallenPersonen"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="fd42dcea-a18a-4de2-a55f-06f36cb9f16a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DmaakListLabelsMetAantallenPersonen"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ce792280-a360-47dc-bf1f-a9fa375ea108"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a94e5f31-df06-49f9-98b1-7ce49513b5bb">
+                    <propertyInstance
+                      Id="f37c1585-50cb-42b0-98da-1686044ce8ca"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8de1e81-0fa7-4457-aca8-45c6550ce86c">
+                    <propertyInstance
+                      Id="44036650-ea21-4d4d-b19b-8a4eff7e697e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1161a5c5-25b1-4a07-af52-922aa5f46a70">
+                    <propertyInstance
+                      Id="3e428dd2-8d15-4e35-8e37-7843239a6c1d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d58bf734-15b0-4d37-b2fc-4829837dc29f">
+                    <propertyInstance
+                      Id="c6e22592-752e-4da4-a8f9-9dfe5e705312"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a3cc7cf-213c-4807-824b-0674fd67e0d6">
+                    <propertyInstance
+                      Id="1dad3a71-3855-42d2-ae97-f9c47b2eb2e9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7042d5b3-2f6d-4a34-b179-beadbd14d864">
+                    <propertyInstance
+                      Id="1d5beb61-753a-47ac-89f2-58282af6ad27"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="22d333e4-6ed3-412d-b011-bfd7046bc81c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="5d385cab-b696-4bd8-8dc0-ef59efe01140"
+                      LastKnownName="List&lt;Label‎&gt;"
+                      LastKnownLocation="Package5_1220.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="93abab5f-cb01-400a-b65e-87ca3259a2fb"
+            name="Dispose"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="90fce5d7-e08f-4ae6-8f01-db9496c74904"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="38dff309-f875-4fc4-9c45-9dfa91c90d8c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a4c5514f-7379-40e1-9dac-f0ec9789a3b5">
+                    <propertyInstance
+                      Id="0247f6d4-52c2-40e6-9c46-5d702b760b43"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e4b9705-e0a5-4f5d-abbc-e40ed8f6b932">
+                    <propertyInstance
+                      Id="67f76192-fb1b-4fe9-9b70-c55a020cc48e"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d8f0ab98-fabe-4ea7-b1b3-18be9ecd8fa3">
+                    <propertyInstance
+                      Id="8ac790cc-7f70-45be-aa82-37c430d36d3e"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff5daf5e-d018-4821-9fcc-60a264a342b0">
+                    <propertyInstance
+                      Id="dce650f4-13b3-408a-82fa-b61f61ba6cd1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03c0f289-c8d4-495f-8a9f-687025b4051d">
+                    <propertyInstance
+                      Id="4a7f3b07-30bb-4cde-a301-8c945f28a441"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c5bb7fb2-1535-4759-9ec6-7f45f5a450fd">
+                    <propertyInstance
+                      Id="5361c6e2-3634-43ed-ac12-03a7319638f6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6d5dd623-2a45-43e6-9185-dabfa175bd61"
+                  name="disposing"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="83123a78-0b85-47ff-a766-d976d9f73888"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3D(Name%3DDispose OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3Ddisposing"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f7c8cac1-fc1a-46e2-9a45-517e8b646ac1"
+            name="InitializeComponent"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5587aac0-ad19-4a89-9357-6c175d4ab251"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2FNick van Leeuwen%2FDocuments%2FVisual Studio 2013%2FProjects%2FBierplicatie2.0%2Fbierplicatie2.0newfolder%2FBierplicatie2.0%2FBierplicatie2.0%2Fbin%2FDebug%2FBierplicatie2.0.exe&quot; Namespace%3DBierplicatie2._0 Type%3DHoofdscherm Member%3DInitializeComponent"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="45672791-aabd-43ef-8ae1-bb0bffa21b3d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1ae469bf-ae53-4af0-b8ea-fe783f0d8f37">
+                    <propertyInstance
+                      Id="fb268a1f-8074-4215-8131-157ac9b3b429"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1e0c8dbd-7ee7-4426-ae2f-a8066cb0ab40">
+                    <propertyInstance
+                      Id="24eb623a-8db7-4b04-8ded-e6734514d01b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58d3f555-c112-421f-8f3c-a40eabfdb0ca">
+                    <propertyInstance
+                      Id="e95341bd-e0f7-4e80-b009-d77e6de79973"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="933ea9c9-1ce0-48dc-91d3-767552d8082a">
+                    <propertyInstance
+                      Id="7a8704ae-0ebe-43f7-a827-3019723c3ca6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="82ad094f-dcc3-4cd8-b86f-9cb00e687d7b">
+                    <propertyInstance
+                      Id="1a53854f-76ce-4225-9633-64479b095032"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="891ff103-0755-4a32-a133-1e3a4b1e86e7">
+                    <propertyInstance
+                      Id="ea04cb07-2329-4d44-8261-4329e9679eb6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
