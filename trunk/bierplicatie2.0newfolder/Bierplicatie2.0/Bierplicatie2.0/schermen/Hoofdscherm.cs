@@ -19,9 +19,9 @@ namespace Bierplicatie2._0
 
         private List<Label> labels = new List<Label>();
         private InvullenNaamVelden invullen = new InvullenNaamVelden();
-        List<Label> invoerNamenLabels;
-        List<Label> invoerHoeveelhedenLabels;
-        List<string> personen;
+        private List<Label> invoerNamenLabels;
+        private List<Label> invoerHoeveelhedenLabels;
+        private List<string> personen;
         public bierKlasse hoofdklasse;
 
         public Hoofdscherm(List<string> personen)
@@ -124,7 +124,7 @@ namespace Bierplicatie2._0
             return labelsMetNamen;
         }
 
-        #endregion
+        #endregion vulNaamSchermen
 
         #region opmaak
 
@@ -226,31 +226,72 @@ namespace Bierplicatie2._0
             switch (keyData)
             {
                 case Keys.NumPad1:
+                    invoerKey1();
                     break;
+
                 case Keys.NumPad2:
                     break;
+
                 case Keys.NumPad3:
                     break;
+
                 case Keys.NumPad4:
                     break;
+
                 case Keys.NumPad5:
                     break;
+
                 case Keys.NumPad6:
                     invoerKey6();
                     break;
+
                 case Keys.NumPad7:
                     invoerKey7();
                     break;
+
                 case Keys.NumPad8:
                     invoerKey8();
                     break;
+
                 case Keys.NumPad9:
                     invoerKey9();
                     break;
+
                 default:
                     break;
             }
             return base.ProcessCmdKey(ref msg, keyData);
+        }
+
+        private void invoerKey1()
+        {
+            biertjeAangeslagen(0);
+        }
+
+
+        private void biertjeAangeslagen(int wie)
+        {
+            int nieuwewaarde = hoofdklasse.optellenBierPunten(wie, 1);
+            invoerHoeveelhedenLabels[wie].Text = "" + nieuwewaarde;
+            kleuren();
+        }
+
+        private void kleuren()
+        {
+            foreach (Label label in invoerHoeveelhedenLabels)
+            {
+                String hoeveelheid = label.Text;
+                int aantal = Convert.ToInt32(hoeveelheid);
+                if(aantal >= 0)
+                {
+                    label.ForeColor = Color.White;
+                }
+                else
+                {
+                    label.ForeColor = Color.Red;
+                }
+            }
+        
         }
 
         private void invoerKey6()
@@ -267,8 +308,10 @@ namespace Bierplicatie2._0
                         regelInhoudVeldenMetNamen(personen, 1);
                     }
                     break;
+
                 case 6:
                     break;
+
                 default:
                     break;
             }
@@ -283,21 +326,23 @@ namespace Bierplicatie2._0
                     {
                         regelInhoudVeldenMetNamen(personen, 3);
                     }
-                    else if(status ==3)
+                    else if (status == 3)
                     {
                         regelInhoudVeldenMetNamen(personen, 1);
                     }
                     break;
+
                 case 6:
                     if (status == 1)
                     {
                         regelInhoudVeldenMetNamen(personen, 2);
                     }
-                    else if(status ==2)
+                    else if (status == 2)
                     {
                         regelInhoudVeldenMetNamen(personen, 1);
                     }
                     break;
+
                 default:
                     break;
             }
@@ -310,6 +355,7 @@ namespace Bierplicatie2._0
                 case 5:
 
                     break;
+
                 case 6:
                     if (status == 1)
                     {
@@ -320,6 +366,7 @@ namespace Bierplicatie2._0
                         regelInhoudVeldenMetNamen(personen, 1);
                     }
                     break;
+
                 case 7:
                     if (status == 1)
                     {
@@ -330,6 +377,7 @@ namespace Bierplicatie2._0
                         regelInhoudVeldenMetNamen(personen, 1);
                     }
                     break;
+
                 default:
                     break;
             }
@@ -342,9 +390,11 @@ namespace Bierplicatie2._0
                 case 5:
 
                     break;
+
                 case 6:
 
                     break;
+
                 case 7:
                     if (status == 1)
                     {
@@ -355,12 +405,13 @@ namespace Bierplicatie2._0
                         regelInhoudVeldenMetNamen(personen, 1);
                     }
                     break;
+
                 default:
                     break;
             }
         }
 
-        #endregion
+        #endregion Invoer
 
         #region vullenAantallenBier
 
@@ -377,12 +428,13 @@ namespace Bierplicatie2._0
 
         private void LabelsEindelijkVullenMetHoeveelheid(List<int> goedGevuldeList)
         {
-            int i =0;
+            int i = 0;
             foreach (Label label in invoerHoeveelhedenLabels)
             {
                 label.Text = goedGevuldeList[i].ToString();
                 i++;
             }
+            kleuren();
         }
 
         private List<Label> maakListLabelsMetAantallenPersonen()
@@ -391,39 +443,40 @@ namespace Bierplicatie2._0
             switch (personen.Count)
             {
                 case 5:
-                                teruggeeflist.Add(label1Aantal);
-            teruggeeflist.Add(label2Aantal);
-            teruggeeflist.Add(label3Aantal);
-            teruggeeflist.Add(label4Aantal);
-            teruggeeflist.Add(label5Aantal);
+                    teruggeeflist.Add(label1Aantal);
+                    teruggeeflist.Add(label2Aantal);
+                    teruggeeflist.Add(label3Aantal);
+                    teruggeeflist.Add(label4Aantal);
+                    teruggeeflist.Add(label5Aantal);
 
                     break;
+
                 case 6:
-                                teruggeeflist.Add(label1Aantal);
-            teruggeeflist.Add(label2Aantal);
-            teruggeeflist.Add(label3Aantal);
-            teruggeeflist.Add(label4Aantal);
-            teruggeeflist.Add(label5Aantal);
-            teruggeeflist.Add(label6Aantal);
+                    teruggeeflist.Add(label1Aantal);
+                    teruggeeflist.Add(label2Aantal);
+                    teruggeeflist.Add(label3Aantal);
+                    teruggeeflist.Add(label4Aantal);
+                    teruggeeflist.Add(label5Aantal);
+                    teruggeeflist.Add(label6Aantal);
 
                     break;
+
                 case 7:
-                                teruggeeflist.Add(label1Aantal);
-            teruggeeflist.Add(label2Aantal);
-            teruggeeflist.Add(label3Aantal);
-            teruggeeflist.Add(label4Aantal);
-            teruggeeflist.Add(label5Aantal);
-            teruggeeflist.Add(label6Aantal);
-            teruggeeflist.Add(label7Aantal);
+                    teruggeeflist.Add(label1Aantal);
+                    teruggeeflist.Add(label2Aantal);
+                    teruggeeflist.Add(label3Aantal);
+                    teruggeeflist.Add(label4Aantal);
+                    teruggeeflist.Add(label5Aantal);
+                    teruggeeflist.Add(label6Aantal);
+                    teruggeeflist.Add(label7Aantal);
                     break;
+
                 default:
                     break;
             }
             return teruggeeflist;
-
         }
 
-
-        #endregion
+        #endregion vullenAantallenBier
     }
 }

@@ -8,6 +8,8 @@ namespace Bierplicatie2._0.code
 {
     public class bierKlasse
     {
+
+
         List<string> namen = new List<string>();
         List<persoon> personen = new List<persoon>();
 
@@ -34,6 +36,13 @@ namespace Bierplicatie2._0.code
                 returnListMetBierpunten.Add(person.Bierpunten);
             }
             return returnListMetBierpunten;
+        }
+
+        public int optellenBierPunten(int persoonInList, int aantal)
+        {
+            //personen[persoonInList].aantalbierAftellen();
+
+            return personen[persoonInList].aantalbierAftellen(aantal);
         }
 
     }
