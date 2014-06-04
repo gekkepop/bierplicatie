@@ -13,8 +13,11 @@ namespace Bierplicatie2._0.code
         private string defaultLocatieAantal = @"C:\bierplicatie\AantalVanHuisgenoten\";
         private string defaultLocatieStatiegeld = @"C:\bierplicatie\statiegeld\";
         private string defaultLocatieAantalGast = @"C:\bierplicatie\AantalVanGasten\";
+        private string defaultLocatieMuziek = @"C:\bierplicatie\Media\";
 
         public string naam;
+
+        private Muziek muziek;
 
         private int bierpunten;
 
@@ -48,13 +51,15 @@ namespace Bierplicatie2._0.code
             get { return maakTXTFile.bestandCheckDouble(defaultLocatieStatiegeld + naam); }
         }
 
-        public persoon(string naam)
+        public persoon(string naam, Muziek muziek)
         {
             this.naam = naam;
+            this.muziek = muziek;
         }
 
         public int aantalbierAftellen(int aantal)
         {
+            muziek.afspelen(defaultLocatieMuziek + naam + @".wav");
             string locatie = defaultLocatieBierpunten + naam;
             string locatieAantal = defaultLocatieAantal + naam;
             maakTXTFile.wegSchrijven(locatieAantal, -aantal);

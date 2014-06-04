@@ -47,6 +47,7 @@
     <Compile Include="code\bierKlasse.cs" />
     <Compile Include="code\InvullenNaamVelden.cs" />
     <Compile Include="code\maakTXTFile.cs" />
+    <Compile Include="code\Muziek.cs" />
     <Compile Include="code\persoon.cs" />
     <Compile Include="schermen\Hoofdscherm.cs">
       <SubType>Form</SubType>

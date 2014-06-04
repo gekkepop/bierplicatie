@@ -12,6 +12,7 @@ namespace Bierplicatie2._0.code
 
         List<string> namen = new List<string>();
         List<persoon> personen = new List<persoon>();
+        Muziek muziek = new Muziek();
 
         public bierKlasse(List<string> namen)
         {
@@ -24,7 +25,7 @@ namespace Bierplicatie2._0.code
         {
             foreach (string naam in namen)
             {
-                personen.Add(new persoon(naam));
+                personen.Add(new persoon(naam, muziek));
             }
         }
 
