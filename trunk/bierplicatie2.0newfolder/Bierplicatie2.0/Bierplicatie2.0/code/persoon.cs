@@ -12,6 +12,7 @@ namespace Bierplicatie2._0.code
         private string defaultLocatieBierpunten = @"C:\bierplicatie\Bierpunten\";
         private string defaultLocatieAantal = @"C:\bierplicatie\AantalVanHuisgenoten\";
         private string defaultLocatieStatiegeld = @"C:\bierplicatie\statiegeld\";
+        private string defaultLocatieAantalGast = @"C:\bierplicatie\AantalVanGasten\";
 
         public string naam;
 
@@ -55,6 +56,8 @@ namespace Bierplicatie2._0.code
         public int aantalbierAftellen(int aantal)
         {
             string locatie = defaultLocatieBierpunten + naam;
+            string locatieAantal = defaultLocatieAantal + naam;
+            maakTXTFile.wegSchrijven(locatieAantal, -aantal);
 
             return maakTXTFile.wegSchrijven(locatie, aantal);
         }
@@ -65,6 +68,24 @@ namespace Bierplicatie2._0.code
 
         public void statiegeldOptellen()
         {
+        }
+
+        internal int aantalbierAftellenGast(int aantal)
+        {
+            string locatie = defaultLocatieBierpunten + naam;
+            string locatieAantal = defaultLocatieAantalGast + naam;
+            maakTXTFile.wegSchrijven(locatieAantal, -aantal);
+
+            return maakTXTFile.wegSchrijven(locatie, aantal);
+        }
+
+        internal int kratAanslaan(int aantal)
+        {
+            string locatie = defaultLocatieBierpunten + naam;
+            string locatieAantal = defaultLocatieStatiegeld + naam;
+            maakTXTFile.wegSchrijvenDouble(locatieAantal, 3.90);
+
+            return maakTXTFile.wegSchrijven(locatie, aantal);
         }
     }
 }
