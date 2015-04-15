@@ -178,8 +178,8 @@
             // Hoofdscherm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            resources.ApplyResources(this, "$this");
             this.BackgroundImage = global::Bierplicatie2._0.Properties.Resources.Bierplicatie1337;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.label10Aantal);
             this.Controls.Add(this.label7Aantal);
             this.Controls.Add(this.label6Aantal);

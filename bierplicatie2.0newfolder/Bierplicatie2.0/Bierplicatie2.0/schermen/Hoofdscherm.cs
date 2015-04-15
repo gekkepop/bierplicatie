@@ -25,7 +25,20 @@ namespace Bierplicatie2._0
         public bierKlasse hoofdklasse;
 
         public Hoofdscherm(List<string> personen)
-        {
+        {   
+            Rectangle resolution = Screen.PrimaryScreen.Bounds;
+            
+            if (resolution.Width == 1920 && resolution.Height == 1080)
+            {
+                var bmp = new Bitmap(Bierplicatie2._0.Properties.Resources.full_hd);
+                this.BackgroundImage = bmp;
+            }
+            if (resolution.Width == 1080 && resolution.Height == 1920)
+            {
+                var bmp = new Bitmap(Bierplicatie2._0.Properties.Resources.jeej);
+                this.BackgroundImage = bmp;
+            }
+
             InitializeComponent();
             this.personen = personen;
             regelOpmaakForm(personen);
@@ -35,6 +48,7 @@ namespace Bierplicatie2._0
 
             regelInhoudAantallen();
             regelInhoudVeldenMetNamen(personen, 1);
+            Cursor.Hide();
         }
 
         #region vulNaamSchermen
