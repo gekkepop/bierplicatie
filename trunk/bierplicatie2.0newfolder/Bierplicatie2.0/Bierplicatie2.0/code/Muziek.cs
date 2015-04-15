@@ -26,8 +26,8 @@ namespace Bierplicatie2._0.code
             }
             else
             {
-                muziek.SoundLocation = @"C:\bierplicatie\Media\Emma.wav";
-                muziek.Play();
+                //muziek.SoundLocation = @"C:\bierplicatie\Media\Emma.wav";
+                //muziek.Play();
             }
         }
 

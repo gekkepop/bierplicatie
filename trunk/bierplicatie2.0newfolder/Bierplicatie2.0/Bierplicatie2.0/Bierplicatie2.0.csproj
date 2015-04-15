@@ -85,11 +85,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Bierplicatie1337.jpg" />
+    <None Include="Resources\bankgthd.ttf" />
+    <None Include="Resources\Bierplicatie1337.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\full hd.jpg" />
-    <Content Include="Resources\jeej.jpg" />
+    <Content Include="Resources\full hd.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\jeej1.jpg" />
+    <None Include="Resources\full hd1.jpg" />
+    <None Include="Resources\jeej.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

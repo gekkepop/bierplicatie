@@ -8,11 +8,11 @@ namespace Bierplicatie2._0.code
 {
     public class bierKlasse
     {
+        //test
 
-
-        List<string> namen = new List<string>();
-        List<persoon> personen = new List<persoon>();
-        Muziek muziek = new Muziek();
+        private List<string> namen = new List<string>();
+        private List<persoon> personen = new List<persoon>();
+        private Muziek muziek = new Muziek();
 
         public bierKlasse(List<string> namen)
         {
@@ -43,7 +43,6 @@ namespace Bierplicatie2._0.code
         {
             return personen[persoonInList].aantalbierAftellen(aantal);
         }
-
 
         internal int optellenBierPuntenGast(int wie, int p)
         {
